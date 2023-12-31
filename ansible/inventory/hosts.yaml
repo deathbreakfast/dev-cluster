@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        node01:
+          ansible_user: seanorourke
+          ansible_host: 192.168.1.196
