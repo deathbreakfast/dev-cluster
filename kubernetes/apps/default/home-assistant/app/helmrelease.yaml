@@ -15,19 +15,6 @@ spec:
         kind: HelmRepository
         name: bjw-s
         namespace: flux-system
-  maxHistory: 3
-  install:
-    timeout: 10m
-    createNamespace: true
-    remediation:
-      retries: 3
-  upgrade:
-    timeout: 10m
-    cleanupOnFail: true
-    remediation:
-      retries: 3
-  uninstall:
-    keepHistory: false
   values:
     podDefaultOptions:
       securityContext:

@@ -80,3 +80,13 @@ tasks:
     preconditions:
       - { msg: "Git repository not up-to-date", sh: "git diff --exit-code" }
       - { msg: "Git repository not up-to-date", sh: "git diff --cached --exit-code" }
+
+  submit:
+    desc: Will add all git changes, create a message, push, and reconcile
+    summary: task {{.TASK}}
+    cmds:
+      - git add -A
+      - git commit -m "Including developmental changes"
+      - git push
+      - flux reconcile -n flux-system kustomization cluster --with-source
+
