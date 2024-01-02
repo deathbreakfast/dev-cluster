@@ -53,7 +53,7 @@ spec:
         containers:
           main:
             image:
-              repository: ghcr.io/onedr0p/home-assistant
+              repository: ghcr.io/home-assistant/home-assistant
               tag: 2023.12.3
             env:
               TZ: America/Los_Angeles
