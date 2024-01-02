@@ -9,7 +9,7 @@ spec:
   interval: 15m
   chart:
     spec:
-      chart: home-assistant
+      chart: app-template
       version: 2.4.0
       sourceRef:
         kind: HelmRepository
