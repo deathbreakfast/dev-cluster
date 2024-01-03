@@ -1,0 +1,3417 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "count": 31,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:38:17Z",
+            "involvedObject": {
+                "apiVersion": "ceph.rook.io/v1",
+                "kind": "CephBlockPool",
+                "name": "ceph-blockpool",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302071",
+                "uid": "41ad2ba5-5e0c-44e8-a22f-460067728071"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:43:17Z",
+            "message": "successfully configured CephBlockPool \"rook-ceph/ceph-blockpool\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:38:17Z",
+                "name": "ceph-blockpool.17a69ef80be3b5c0",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304594",
+                "uid": "0b5b5c24-ae41-4553-bca2-4bc60b127b9b"
+            },
+            "reason": "ReconcileSucceeded",
+            "reportingComponent": "rook-ceph-block-pool-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "rook-ceph-block-pool-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 331,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:43:19Z",
+            "involvedObject": {
+                "apiVersion": "ceph.rook.io/v1",
+                "kind": "CephBlockPool",
+                "name": "ceph-blockpool",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304616",
+                "uid": "41ad2ba5-5e0c-44e8-a22f-460067728071"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:38:20Z",
+            "message": "successfully configured CephBlockPool \"rook-ceph/ceph-blockpool\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:43:19Z",
+                "name": "ceph-blockpool.17a69f3e5eb53660",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1333579",
+                "uid": "2b57775d-805e-4b61-8e4a-2d282a31ceab"
+            },
+            "reason": "ReconcileSucceeded",
+            "reportingComponent": "rook-ceph-block-pool-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "rook-ceph-block-pool-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 31,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:38:17Z",
+            "involvedObject": {
+                "apiVersion": "ceph.rook.io/v1",
+                "kind": "CephFilesystem",
+                "name": "ceph-filesystem",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302089",
+                "uid": "27beff05-6c11-489e-b7b5-ef09967b8774"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:43:17Z",
+            "message": "successfully configured CephFilesystem \"rook-ceph/ceph-filesystem\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:38:17Z",
+                "name": "ceph-filesystem.17a69ef80f578cae",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304590",
+                "uid": "aa512700-b00e-4e5e-95c2-413ccc866875"
+            },
+            "reason": "ReconcileSucceeded",
+            "reportingComponent": "rook-ceph-file-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "rook-ceph-file-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 331,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:43:19Z",
+            "involvedObject": {
+                "apiVersion": "ceph.rook.io/v1",
+                "kind": "CephFilesystem",
+                "name": "ceph-filesystem",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304621",
+                "uid": "27beff05-6c11-489e-b7b5-ef09967b8774"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:38:20Z",
+            "message": "successfully configured CephFilesystem \"rook-ceph/ceph-filesystem\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:43:19Z",
+                "name": "ceph-filesystem.17a69f3e5ebbe6bb",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1333581",
+                "uid": "2de17c82-e111-477e-bfa6-4ba12caaa18b"
+            },
+            "reason": "ReconcileSucceeded",
+            "reportingComponent": "rook-ceph-file-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "rook-ceph-file-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 25,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:38:17Z",
+            "involvedObject": {
+                "apiVersion": "ceph.rook.io/v1",
+                "kind": "CephObjectStore",
+                "name": "ceph-objectstore",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302097",
+                "uid": "aee8a5f2-b91e-43ba-a683-461485fe62e4"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:42:21Z",
+            "message": "successfully configured CephObjectStore \"rook-ceph/ceph-objectstore\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:38:17Z",
+                "name": "ceph-objectstore.17a69ef831533aa2",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304136",
+                "uid": "ee04f974-0f13-4c0a-aab2-183834c9e48c"
+            },
+            "reason": "ReconcileSucceeded",
+            "reportingComponent": "rook-ceph-object-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "rook-ceph-object-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:43:19Z",
+            "involvedObject": {
+                "apiVersion": "ceph.rook.io/v1",
+                "kind": "CephCOSIDriver",
+                "name": "ceph-objectstore",
+                "namespace": "rook-ceph"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:43:19Z",
+            "message": "successfully configured CephCOSIDriver \"rook-ceph/ceph-objectstore\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:43:19Z",
+                "name": "ceph-objectstore.17a69f3e5eba5bdc",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304639",
+                "uid": "1192a5fd-0b67-4e1b-95a3-d2e422530caf"
+            },
+            "reason": "ReconcileSucceeded",
+            "reportingComponent": "ceph-cosi-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "ceph-cosi-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 331,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:43:19Z",
+            "involvedObject": {
+                "apiVersion": "ceph.rook.io/v1",
+                "kind": "CephObjectStore",
+                "name": "ceph-objectstore",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304623",
+                "uid": "aee8a5f2-b91e-43ba-a683-461485fe62e4"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:38:25Z",
+            "message": "successfully configured CephObjectStore \"rook-ceph/ceph-objectstore\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:43:19Z",
+                "name": "ceph-objectstore.17a69f3e5f313ca0",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1333628",
+                "uid": "9f32e876-359d-494c-8015-7a48473a88ff"
+            },
+            "reason": "ReconcileSucceeded",
+            "reportingComponent": "rook-ceph-object-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "rook-ceph-object-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-02T19:41:05.292344Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303427",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned rook-ceph/csi-cephfsplugin-provisioner-d58db98d5-8nw9p to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:05Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f1f2f47c7d5",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303436",
+                "uid": "80121d2d-a119-4be3-a590-4f940c5c9886"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:11Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-attacher}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:11Z",
+            "message": "Pulling image \"registry.k8s.io/sig-storage/csi-attacher:v4.4.2\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:11Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f20b5fcd670",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303510",
+                "uid": "fff29c76-2269-4a64-8f06-68acd8a29962"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:34Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-attacher}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:34Z",
+            "message": "Successfully pulled image \"registry.k8s.io/sig-storage/csi-attacher:v4.4.2\" in 22.645s (22.645s including waiting)",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:34Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f25fbbc5e58",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303700",
+                "uid": "b8fb42c0-8d30-457f-9981-2f9cdbd5b930"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:34Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-attacher}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:34Z",
+            "message": "Created container csi-attacher",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:34Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2601d2bb62",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303702",
+                "uid": "06e89cb1-2cbb-4948-b87e-aabeaad05bce"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:36Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-attacher}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:36Z",
+            "message": "Started container csi-attacher",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:36Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f266765f423",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303716",
+                "uid": "51af0aa8-f9a5-4b7a-857c-e1167e3afe15"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:36Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-snapshotter}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:36Z",
+            "message": "Pulling image \"registry.k8s.io/sig-storage/csi-snapshotter:v6.3.2\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:36Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2667701f87",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303718",
+                "uid": "a691cc26-7962-4f48-9a43-59026499932c"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:52Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-snapshotter}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:52Z",
+            "message": "Successfully pulled image \"registry.k8s.io/sig-storage/csi-snapshotter:v6.3.2\" in 16.01s (16.01s including waiting)",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:52Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2a21bb9870",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303844",
+                "uid": "7771322a-10d5-4718-b7a6-3bf4f021c5a1"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:52Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-snapshotter}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:52Z",
+            "message": "Created container csi-snapshotter",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:52Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2a36eeb49a",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303847",
+                "uid": "52871517-7f72-421f-b83f-599fd7bc37c6"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:52Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-snapshotter}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:52Z",
+            "message": "Started container csi-snapshotter",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:52Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2a48c7b48c",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303850",
+                "uid": "054f0011-0173-4cbf-b860-561c53dff574"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:52Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-resizer}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:52Z",
+            "message": "Pulling image \"registry.k8s.io/sig-storage/csi-resizer:v1.9.2\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:52Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2a48d80684",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303851",
+                "uid": "7a4c6dbf-4242-42c4-b380-e1d5801aa8c6"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-resizer}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:53Z",
+            "message": "Successfully pulled image \"registry.k8s.io/sig-storage/csi-resizer:v1.9.2\" in 592ms (592ms including waiting)",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:53Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2a6c2f9da4",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303856",
+                "uid": "93c278f3-6038-4130-92ff-07866bf33769"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-resizer}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:53Z",
+            "message": "Created container csi-resizer",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:53Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2a774b9fff",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303860",
+                "uid": "2de1f5ec-6b31-4f84-a027-74015482cbd0"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-resizer}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:55Z",
+            "message": "Started container csi-resizer",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:55Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2ad18c58b3",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303873",
+                "uid": "c4e2e12d-99ba-4fd1-8f66-46f5a8442e54"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-provisioner}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:55Z",
+            "message": "Container image \"registry.k8s.io/sig-storage/csi-provisioner:v3.6.2\" already present on machine",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:55Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2ad1f33b62",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303874",
+                "uid": "14613849-c3af-4f62-8daf-d16f213c2adb"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-provisioner}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:55Z",
+            "message": "Created container csi-provisioner",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:55Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2af3f71973",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303880",
+                "uid": "e28553b7-301c-43b8-9656-5ad46133cd7a"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:56Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-provisioner}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:56Z",
+            "message": "Started container csi-provisioner",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:56Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2b1300d7cb",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303888",
+                "uid": "a98a0d8f-eec0-4c0a-b875-693b72baca67"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:56Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-cephfsplugin}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:56Z",
+            "message": "Container image \"quay.io/cephcsi/cephcsi:v3.10.1\" already present on machine",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:56Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2b1323466d",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303891",
+                "uid": "ac245237-96ee-4eec-a65a-f8d6595ef225"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:56Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-cephfsplugin}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:56Z",
+            "message": "Created container csi-cephfsplugin",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:56Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2b26210567",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303893",
+                "uid": "8cd4ed76-fc47-43df-9859-85796c26374b"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:56Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-cephfsplugin}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303432",
+                "uid": "561eb7ee-63d5-4460-bfd5-5649dfd30178"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:56Z",
+            "message": "Started container csi-cephfsplugin",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:56Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p.17a69f2b388b81ca",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303896",
+                "uid": "187fb38a-4ace-4b04-afa9-a7f1c92cb07e"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:05Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303423",
+                "uid": "9a716c4c-c90b-489b-b842-03657d44116b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:05Z",
+            "message": "Created pod: csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:05Z",
+                "name": "csi-cephfsplugin-provisioner-d58db98d5.17a69f1f2d552b2f",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303433",
+                "uid": "b0931591-4a02-42ce-896f-0a0f6fa2ba3a"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:05Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "csi-cephfsplugin-provisioner",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303422",
+                "uid": "4fdac7cc-fdd3-4d4c-a4ef-7c73c8b62a28"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:05Z",
+            "message": "Scaled up replica set csi-cephfsplugin-provisioner-d58db98d5 to 1",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:05Z",
+                "name": "csi-cephfsplugin-provisioner.17a69f1f250999a8",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303426",
+                "uid": "a2dad45b-ed73-4567-9177-e89c8d38dd45"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-02T19:41:05.112177Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-pzrvp",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303413",
+                "uid": "40e8114e-445f-40d5-b5f0-85350c1bf228"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned rook-ceph/csi-cephfsplugin-pzrvp to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:05Z",
+                "name": "csi-cephfsplugin-pzrvp.17a69f1f248aae0f",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303424",
+                "uid": "a08b4896-97c3-49f4-b195-703c9c4387b0"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:08Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{driver-registrar}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-pzrvp",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303419",
+                "uid": "40e8114e-445f-40d5-b5f0-85350c1bf228"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:08Z",
+            "message": "Pulling image \"registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.1\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:08Z",
+                "name": "csi-cephfsplugin-pzrvp.17a69f1fec8d9892",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303467",
+                "uid": "8d9a1850-a596-4a8c-808b-c48bffe8a373"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:26Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{driver-registrar}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-pzrvp",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303419",
+                "uid": "40e8114e-445f-40d5-b5f0-85350c1bf228"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:26Z",
+            "message": "Successfully pulled image \"registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.1\" in 17.639s (17.639s including waiting)",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:26Z",
+                "name": "csi-cephfsplugin-pzrvp.17a69f24084ba195",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303618",
+                "uid": "a9e3fb94-a5e3-4daf-81a6-c60fafc1d8a3"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:26Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{driver-registrar}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-pzrvp",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303419",
+                "uid": "40e8114e-445f-40d5-b5f0-85350c1bf228"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:26Z",
+            "message": "Created container driver-registrar",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:26Z",
+                "name": "csi-cephfsplugin-pzrvp.17a69f243bc617de",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303626",
+                "uid": "8af9bc6d-d75c-4c36-b5c2-c7fa46d48602"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:28Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{driver-registrar}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-pzrvp",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303419",
+                "uid": "40e8114e-445f-40d5-b5f0-85350c1bf228"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:28Z",
+            "message": "Started container driver-registrar",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:28Z",
+                "name": "csi-cephfsplugin-pzrvp.17a69f24a0017070",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303646",
+                "uid": "7185350c-24bf-46f1-af07-60c071a64ecb"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:28Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-cephfsplugin}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-pzrvp",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303419",
+                "uid": "40e8114e-445f-40d5-b5f0-85350c1bf228"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:28Z",
+            "message": "Container image \"quay.io/cephcsi/cephcsi:v3.10.1\" already present on machine",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:28Z",
+                "name": "csi-cephfsplugin-pzrvp.17a69f24a017ac0e",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303647",
+                "uid": "5596b048-c87d-45fb-b8b0-de7ccb2cefa9"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:29Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-cephfsplugin}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-pzrvp",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303419",
+                "uid": "40e8114e-445f-40d5-b5f0-85350c1bf228"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:29Z",
+            "message": "Created container csi-cephfsplugin",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:29Z",
+                "name": "csi-cephfsplugin-pzrvp.17a69f24bb8ac5f6",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303651",
+                "uid": "ec143881-3fb5-403b-92e1-9b38fc3ca4c8"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:30Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-cephfsplugin}",
+                "kind": "Pod",
+                "name": "csi-cephfsplugin-pzrvp",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303419",
+                "uid": "40e8114e-445f-40d5-b5f0-85350c1bf228"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:30Z",
+            "message": "Started container csi-cephfsplugin",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:30Z",
+                "name": "csi-cephfsplugin-pzrvp.17a69f25085f44ab",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303665",
+                "uid": "ec24bb83-8d33-4387-b2a6-1a5ad4a5e0fa"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:05Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "DaemonSet",
+                "name": "csi-cephfsplugin",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303397",
+                "uid": "180bd650-a5d3-421e-b96f-fd6b8952d387"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:05Z",
+            "message": "Created pod: csi-cephfsplugin-pzrvp",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:05Z",
+                "name": "csi-cephfsplugin.17a69f1f20eeb3a7",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303420",
+                "uid": "b62d9f81-5e26-4cb6-b2ea-47fa18a65c5d"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "daemonset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "daemonset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-02T19:41:04.900159Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-gqsf2",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303383",
+                "uid": "d09d3611-8292-4826-a6f3-8b3ebe685f0b"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned rook-ceph/csi-rbdplugin-gqsf2 to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:04Z",
+                "name": "csi-rbdplugin-gqsf2.17a69f1f17e78286",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303415",
+                "uid": "fc06259a-44f9-4201-becb-1ce755b2f549"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:08Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{driver-registrar}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-gqsf2",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303404",
+                "uid": "d09d3611-8292-4826-a6f3-8b3ebe685f0b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:08Z",
+            "message": "Pulling image \"registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.1\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:08Z",
+                "name": "csi-rbdplugin-gqsf2.17a69f20084a8d09",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303469",
+                "uid": "5c695210-c21f-4768-888d-f8967e0298e7"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:26Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{driver-registrar}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-gqsf2",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303404",
+                "uid": "d09d3611-8292-4826-a6f3-8b3ebe685f0b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:26Z",
+            "message": "Successfully pulled image \"registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.1\" in 17.119s (17.119s including waiting)",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:26Z",
+                "name": "csi-rbdplugin-gqsf2.17a69f2404b56731",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303617",
+                "uid": "af59c701-031b-46da-adf1-a125f1e7f155"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:26Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{driver-registrar}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-gqsf2",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303404",
+                "uid": "d09d3611-8292-4826-a6f3-8b3ebe685f0b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:26Z",
+            "message": "Created container driver-registrar",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:26Z",
+                "name": "csi-rbdplugin-gqsf2.17a69f24315f00c6",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303625",
+                "uid": "fa5f9966-4876-45df-b7a6-afa822d3f800"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:28Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{driver-registrar}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-gqsf2",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303404",
+                "uid": "d09d3611-8292-4826-a6f3-8b3ebe685f0b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:28Z",
+            "message": "Started container driver-registrar",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:28Z",
+                "name": "csi-rbdplugin-gqsf2.17a69f248214263a",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303642",
+                "uid": "6f5583c5-c345-4c77-aab0-2e000f60dcdc"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:28Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-rbdplugin}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-gqsf2",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303404",
+                "uid": "d09d3611-8292-4826-a6f3-8b3ebe685f0b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:28Z",
+            "message": "Container image \"quay.io/cephcsi/cephcsi:v3.10.1\" already present on machine",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:28Z",
+                "name": "csi-rbdplugin-gqsf2.17a69f24834d376c",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303643",
+                "uid": "8d84bf85-f8e4-4ede-a400-0d09d46ea91b"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:28Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-rbdplugin}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-gqsf2",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303404",
+                "uid": "d09d3611-8292-4826-a6f3-8b3ebe685f0b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:28Z",
+            "message": "Created container csi-rbdplugin",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:28Z",
+                "name": "csi-rbdplugin-gqsf2.17a69f24a9f92d8c",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303649",
+                "uid": "84d9c821-05e3-4522-9975-35e833d0e07a"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:30Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-rbdplugin}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-gqsf2",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303404",
+                "uid": "d09d3611-8292-4826-a6f3-8b3ebe685f0b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:30Z",
+            "message": "Started container csi-rbdplugin",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:30Z",
+                "name": "csi-rbdplugin-gqsf2.17a69f24f089ea7f",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303659",
+                "uid": "46c740f4-d0e6-4395-85e4-62e0093456bf"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-02T19:41:04.902989Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303387",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned rook-ceph/csi-rbdplugin-provisioner-59b468d998-wwwgw to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:04Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f1f1812b376",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303414",
+                "uid": "e6ac5c51-6af8-4dea-9de9-52f1ac71cace"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:12Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-provisioner}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:12Z",
+            "message": "Pulling image \"registry.k8s.io/sig-storage/csi-provisioner:v3.6.2\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:12Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f20e1ed6712",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303518",
+                "uid": "373e4ad8-db1c-4df8-9efe-5227658a6286"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:36Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-provisioner}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:36Z",
+            "message": "Successfully pulled image \"registry.k8s.io/sig-storage/csi-provisioner:v3.6.2\" in 23.764s (23.764s including waiting)",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:36Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f266a64622f",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303719",
+                "uid": "3c4d9db7-0519-4772-b521-4d4232b47fa1"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:36Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-provisioner}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:36Z",
+            "message": "Created container csi-provisioner",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:36Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f266daea61e",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303720",
+                "uid": "195aeeba-0e86-43a8-84c3-87f88c5d93b3"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:36Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-provisioner}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:36Z",
+            "message": "Started container csi-provisioner",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:36Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f26880c48af",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303725",
+                "uid": "922a9863-0904-4b24-a950-390877224771"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:36Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-resizer}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:36Z",
+            "message": "Pulling image \"registry.k8s.io/sig-storage/csi-resizer:v1.9.2\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:36Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2688152bdb",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303726",
+                "uid": "78c7d761-f332-4ccc-942f-0c944295c251"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-resizer}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:53Z",
+            "message": "Successfully pulled image \"registry.k8s.io/sig-storage/csi-resizer:v1.9.2\" in 16.612s (16.612s including waiting)",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:53Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2a66415308",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303853",
+                "uid": "5eca092a-8682-4f42-b1cd-48c9eea0f79a"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-resizer}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:53Z",
+            "message": "Created container csi-resizer",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:53Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2a6c6e5ec8",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303857",
+                "uid": "1a337f5c-93f3-4a06-9cb1-310e1656862c"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:54Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-resizer}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:54Z",
+            "message": "Started container csi-resizer",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:54Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2a94ea194c",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303868",
+                "uid": "57c2ba71-dde1-482f-8b79-01f0a3c8b36d"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:54Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-attacher}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:54Z",
+            "message": "Container image \"registry.k8s.io/sig-storage/csi-attacher:v4.4.2\" already present on machine",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:54Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2a9a551e8e",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303869",
+                "uid": "777e56a2-3d9c-465e-92c9-2ff79467c3a6"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-attacher}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:55Z",
+            "message": "Created container csi-attacher",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:55Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2af2e28c75",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303879",
+                "uid": "4faade02-9e68-4a83-8a9e-a848ce40b3ff"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:56Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-attacher}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:56Z",
+            "message": "Started container csi-attacher",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:56Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2b130a3958",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303889",
+                "uid": "1b939450-a6b6-493f-aeb9-e2058d0fce5e"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:56Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-snapshotter}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:56Z",
+            "message": "Container image \"registry.k8s.io/sig-storage/csi-snapshotter:v6.3.2\" already present on machine",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:56Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2b131d286b",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303890",
+                "uid": "1b772131-e2cc-4d8c-9daf-66296530863f"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:56Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-snapshotter}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:56Z",
+            "message": "Created container csi-snapshotter",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:56Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2b2b755369",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303894",
+                "uid": "f793d4b8-b9b8-4b22-97c1-fe6f1f8bbaca"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:57Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-snapshotter}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:57Z",
+            "message": "Started container csi-snapshotter",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:57Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2b3dd856fe",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303897",
+                "uid": "4d26a077-62fd-48cc-b9b6-25b8f5089dee"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:57Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-rbdplugin}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:57Z",
+            "message": "Container image \"quay.io/cephcsi/cephcsi:v3.10.1\" already present on machine",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:57Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2b4016bc49",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303898",
+                "uid": "47c3f729-1566-43c1-a353-0e3b44166c99"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:57Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-rbdplugin}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:57Z",
+            "message": "Created container csi-rbdplugin",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:57Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2b556ea8d6",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303902",
+                "uid": "c9aa0fdc-cc44-47a0-8980-52f6f9dfc361"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:58Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{csi-rbdplugin}",
+                "kind": "Pod",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303403",
+                "uid": "02df447e-5cab-43b6-aaee-7ea6f12c16c7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:58Z",
+            "message": "Started container csi-rbdplugin",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:58Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998-wwwgw.17a69f2b873a03b6",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303919",
+                "uid": "7ca9f2b9-6855-45f6-88e4-570851e47d68"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:04Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "csi-rbdplugin-provisioner-59b468d998",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303379",
+                "uid": "9b54a216-d5ee-4ca9-9183-63eb4755a345"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:04Z",
+            "message": "Created pod: csi-rbdplugin-provisioner-59b468d998-wwwgw",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:04Z",
+                "name": "csi-rbdplugin-provisioner-59b468d998.17a69f1eeb58e9a4",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303399",
+                "uid": "ee7d2e93-5e2d-41d5-ac69-23baa6ae3b5a"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:03Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "csi-rbdplugin-provisioner",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303375",
+                "uid": "63893af9-a558-4c18-bef0-ef8978142fc7"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:03Z",
+            "message": "Scaled up replica set csi-rbdplugin-provisioner-59b468d998 to 1",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:03Z",
+                "name": "csi-rbdplugin-provisioner.17a69f1ec8514819",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303386",
+                "uid": "a0438768-9784-4750-82cc-32a46606cfe1"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:04Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "DaemonSet",
+                "name": "csi-rbdplugin",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303370",
+                "uid": "1ce6483c-e436-4e24-8584-f76d0e31ce1d"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:04Z",
+            "message": "Created pod: csi-rbdplugin-gqsf2",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:04Z",
+                "name": "csi-rbdplugin.17a69f1eeb5b6a58",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303398",
+                "uid": "48390091-ef88-4afb-9368-31e3d1b091fe"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "daemonset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "daemonset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:58Z",
+            "involvedObject": {
+                "apiVersion": "coordination.k8s.io/v1",
+                "kind": "Lease",
+                "name": "external-attacher-leader-rook-ceph-cephfs-csi-ceph-com",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303924",
+                "uid": "70f0d8a0-2d73-484b-b70d-7c8c016cba58"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:58Z",
+            "message": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p became leader",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:58Z",
+                "name": "external-attacher-leader-rook-ceph-cephfs-csi-ceph-com.17a69f2b99cf9ac9",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303925",
+                "uid": "6821457f-e811-45fe-9d1b-e523198175a9"
+            },
+            "reason": "LeaderElection",
+            "reportingComponent": "external-attacher-leader-rook-ceph.cephfs.csi.ceph.com/csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+            "reportingInstance": "",
+            "source": {
+                "component": "external-attacher-leader-rook-ceph.cephfs.csi.ceph.com/csi-cephfsplugin-provisioner-d58db98d5-8nw9p"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:59Z",
+            "involvedObject": {
+                "apiVersion": "coordination.k8s.io/v1",
+                "kind": "Lease",
+                "name": "external-attacher-leader-rook-ceph-rbd-csi-ceph-com",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303942",
+                "uid": "3cb5e5f9-4e7a-4cfb-a1cb-b54f8bee43a6"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:59Z",
+            "message": "csi-rbdplugin-provisioner-59b468d998-wwwgw became leader",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:59Z",
+                "name": "external-attacher-leader-rook-ceph-rbd-csi-ceph-com.17a69f2be034d874",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303944",
+                "uid": "52280fb3-d065-47d1-be45-89aeb1375bba"
+            },
+            "reason": "LeaderElection",
+            "reportingComponent": "external-attacher-leader-rook-ceph.rbd.csi.ceph.com/csi-rbdplugin-provisioner-59b468d998-wwwgw",
+            "reportingInstance": "",
+            "source": {
+                "component": "external-attacher-leader-rook-ceph.rbd.csi.ceph.com/csi-rbdplugin-provisioner-59b468d998-wwwgw"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:58Z",
+            "involvedObject": {
+                "apiVersion": "coordination.k8s.io/v1",
+                "kind": "Lease",
+                "name": "external-resizer-rook-ceph-cephfs-csi-ceph-com",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303922",
+                "uid": "6c71e1c5-46dc-4c5d-9cd6-40c0f062e710"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:58Z",
+            "message": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p became leader",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:58Z",
+                "name": "external-resizer-rook-ceph-cephfs-csi-ceph-com.17a69f2b93e74bec",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303923",
+                "uid": "24233d9c-54c2-416d-b35a-d35b9c92fe18"
+            },
+            "reason": "LeaderElection",
+            "reportingComponent": "external-resizer-rook-ceph-cephfs-csi-ceph-com/csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+            "reportingInstance": "",
+            "source": {
+                "component": "external-resizer-rook-ceph-cephfs-csi-ceph-com/csi-cephfsplugin-provisioner-d58db98d5-8nw9p"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:42:00Z",
+            "involvedObject": {
+                "apiVersion": "coordination.k8s.io/v1",
+                "kind": "Lease",
+                "name": "external-resizer-rook-ceph-rbd-csi-ceph-com",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303961",
+                "uid": "faee0970-c59d-4e6f-ab66-d7dc23d0f159"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:42:00Z",
+            "message": "csi-rbdplugin-provisioner-59b468d998-wwwgw became leader",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:42:00Z",
+                "name": "external-resizer-rook-ceph-rbd-csi-ceph-com.17a69f2c117b195a",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303963",
+                "uid": "c7f60513-09c4-4c93-9809-cd26f8025daa"
+            },
+            "reason": "LeaderElection",
+            "reportingComponent": "external-resizer-rook-ceph-rbd-csi-ceph-com/csi-rbdplugin-provisioner-59b468d998-wwwgw",
+            "reportingInstance": "",
+            "source": {
+                "component": "external-resizer-rook-ceph-rbd-csi-ceph-com/csi-rbdplugin-provisioner-59b468d998-wwwgw"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:59Z",
+            "involvedObject": {
+                "apiVersion": "coordination.k8s.io/v1",
+                "kind": "Lease",
+                "name": "external-snapshotter-leader-rook-ceph-cephfs-csi-ceph-com",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303939",
+                "uid": "b0b5d14d-5b51-4afd-99b0-dbdf07d0fd4b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:59Z",
+            "message": "csi-cephfsplugin-provisioner-d58db98d5-8nw9p became leader",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:59Z",
+                "name": "external-snapshotter-leader-rook-ceph-cephfs-csi-ceph-com.17a69f2bd3c459c1",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303940",
+                "uid": "db8685f7-cdb8-49c9-8613-0777d4b43f4a"
+            },
+            "reason": "LeaderElection",
+            "reportingComponent": "external-snapshotter-leader-rook-ceph.cephfs.csi.ceph.com/csi-cephfsplugin-provisioner-d58db98d5-8nw9p",
+            "reportingInstance": "",
+            "source": {
+                "component": "external-snapshotter-leader-rook-ceph.cephfs.csi.ceph.com/csi-cephfsplugin-provisioner-d58db98d5-8nw9p"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:42:00Z",
+            "involvedObject": {
+                "apiVersion": "coordination.k8s.io/v1",
+                "kind": "Lease",
+                "name": "external-snapshotter-leader-rook-ceph-rbd-csi-ceph-com",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303946",
+                "uid": "9d4eefb1-0286-4262-9c75-232e5ca75422"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:42:00Z",
+            "message": "csi-rbdplugin-provisioner-59b468d998-wwwgw became leader",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:42:00Z",
+                "name": "external-snapshotter-leader-rook-ceph-rbd-csi-ceph-com.17a69f2bee04857a",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303948",
+                "uid": "da0803b2-0799-48a6-9c76-63f81233720c"
+            },
+            "reason": "LeaderElection",
+            "reportingComponent": "external-snapshotter-leader-rook-ceph.rbd.csi.ceph.com/csi-rbdplugin-provisioner-59b468d998-wwwgw",
+            "reportingInstance": "",
+            "source": {
+                "component": "external-snapshotter-leader-rook-ceph.rbd.csi.ceph.com/csi-rbdplugin-provisioner-59b468d998-wwwgw"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:59Z",
+            "involvedObject": {
+                "apiVersion": "coordination.k8s.io/v1",
+                "kind": "Lease",
+                "name": "rook-ceph-cephfs-csi-ceph-com",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303935",
+                "uid": "83530122-19e4-44fc-8ae9-07689e95fb8a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:59Z",
+            "message": "1704224518426-321-rook-ceph-cephfs-csi-ceph-com became leader",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:59Z",
+                "name": "rook-ceph-cephfs-csi-ceph-com.17a69f2bb4181535",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303936",
+                "uid": "d1f3a597-470a-467a-bc28-1fa57e30b433"
+            },
+            "reason": "LeaderElection",
+            "reportingComponent": "rook-ceph.cephfs.csi.ceph.com/1704224518426-321-rook-ceph.cephfs.csi.ceph.com",
+            "reportingInstance": "",
+            "source": {
+                "component": "rook-ceph.cephfs.csi.ceph.com/1704224518426-321-rook-ceph.cephfs.csi.ceph.com"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:43:17Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "rook-ceph-cluster",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302033",
+                "uid": "f72c9917-55cd-4a2d-ab7f-304ee58e6751"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:43:17Z",
+            "message": "Helm install failed for release rook-ceph/rook-ceph-cluster with chart rook-ceph-cluster@v1.13.1: context deadline exceeded\n\nLast Helm logs:\n\n2024-01-02T19:38:16.943010963Z: creating 10 resource(s)\n2024-01-02T19:38:17.772620426Z: beginning wait for 10 resources with timeout of 5m0s\n2024-01-02T19:38:17.865436516Z: Deployment is not ready: rook-ceph/rook-ceph-tools. 0 out of 1 expected pods are ready\n2024-01-02T19:43:15.897424247Z: Deployment is not ready: rook-ceph/rook-ceph-tools. 0 out of 1 expected pods are ready (149 duplicate lines omitted)",
+            "metadata": {
+                "annotations": {
+                    "helm.toolkit.fluxcd.io/revision": "v1.13.1",
+                    "helm.toolkit.fluxcd.io/token": "sha256:4707238e5a46b4a6213a756df0e55daff4af3c652c135d56abe8e7d1c218f76f"
+                },
+                "creationTimestamp": "2024-01-02T19:43:17Z",
+                "name": "rook-ceph-cluster.17a69f3e0b439c74",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304600",
+                "uid": "c897c054-10fc-4934-b25f-43affa345233"
+            },
+            "reason": "InstallFailed",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:48:18Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "rook-ceph-cluster",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302033",
+                "uid": "f72c9917-55cd-4a2d-ab7f-304ee58e6751"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:48:18Z",
+            "message": "Helm uninstall remediation for release rook-ceph/rook-ceph-cluster.v1 with chart rook-ceph-cluster@v1.13.1 failed: uninstallation completed with 1 error(s): context deadline exceeded\n\nLast Helm logs:\n\n2024-01-02T19:43:18.478313048Z: Starting delete for \"ceph-block\" StorageClass\n2024-01-02T19:43:18.478524138Z: Starting delete for \"ceph-filesystem\" StorageClass\n2024-01-02T19:43:18.487150825Z: Starting delete for \"ceph-blockpool\" CephBlockPool\n2024-01-02T19:43:18.56226808Z: Starting delete for \"rook-ceph\" CephCluster\n2024-01-02T19:43:18.574356177Z: Starting delete for \"ceph-filesystem\" CephFilesystem\n2024-01-02T19:43:18.585327449Z: Starting delete for \"ceph-filesystem-csi\" CephFilesystemSubVolumeGroup\n2024-01-02T19:43:18.590739099Z: Starting delete for \"ceph-objectstore\" CephObjectStore\n2024-01-02T19:43:18.598893193Z: Starting delete for \"prometheus-ceph-rules\" PrometheusRule\n2024-01-02T19:43:18.607683585Z: beginning wait for 10 resources to be deleted with timeout of 5m0s\n2024-01-02T19:48:18.608495004Z: purge requested for rook-ceph-cluster",
+            "metadata": {
+                "annotations": {
+                    "helm.toolkit.fluxcd.io/revision": "v1.13.1",
+                    "helm.toolkit.fluxcd.io/token": "sha256:4707238e5a46b4a6213a756df0e55daff4af3c652c135d56abe8e7d1c218f76f"
+                },
+                "creationTimestamp": "2024-01-02T19:48:18Z",
+                "name": "rook-ceph-cluster.17a69f8414fbcd86",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1307367",
+                "uid": "bb215a29-b16c-4dd7-8d8b-c8dedc3b2cd4"
+            },
+            "reason": "UninstallFailed",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:53:30Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "rook-ceph-cluster",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1307376",
+                "uid": "f72c9917-55cd-4a2d-ab7f-304ee58e6751"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:53:30Z",
+            "message": "Helm install failed for release rook-ceph/rook-ceph-cluster with chart rook-ceph-cluster@v1.13.1: context deadline exceeded\n\nLast Helm logs:\n\n2024-01-02T19:48:30.669625042Z: Created a new StorageClass called \"ceph-bucket\" in \n\n2024-01-02T19:48:30.678451266Z: Created a new Deployment called \"rook-ceph-tools\" in rook-ceph\n\n2024-01-02T19:48:30.732085674Z: Looks like there are no changes for CephBlockPool \"ceph-blockpool\"\n2024-01-02T19:48:30.853916424Z: Looks like there are no changes for CephCluster \"rook-ceph\"\n2024-01-02T19:48:30.931903188Z: Looks like there are no changes for CephFilesystem \"ceph-filesystem\"\n2024-01-02T19:48:30.946323175Z: Looks like there are no changes for CephFilesystemSubVolumeGroup \"ceph-filesystem-csi\"\n2024-01-02T19:48:30.952850451Z: Looks like there are no changes for CephObjectStore \"ceph-objectstore\"\n2024-01-02T19:48:30.977322111Z: Created a new PrometheusRule called \"prometheus-ceph-rules\" in rook-ceph\n\n2024-01-02T19:48:30.977332432Z: beginning wait for 10 resources with timeout of 5m0s\n2024-01-02T19:48:30.984403638Z: Deployment is not ready: rook-ceph/rook-ceph-tools. 0 out of 1 expected pods are ready\n2024-01-02T19:53:29.053480332Z: Deployment is not ready: rook-ceph/rook-ceph-tools. 0 out of 1 expected pods are ready (149 duplicate lines omitted)",
+            "metadata": {
+                "annotations": {
+                    "helm.toolkit.fluxcd.io/revision": "v1.13.1",
+                    "helm.toolkit.fluxcd.io/token": "sha256:4707238e5a46b4a6213a756df0e55daff4af3c652c135d56abe8e7d1c218f76f"
+                },
+                "creationTimestamp": "2024-01-02T19:53:31Z",
+                "name": "rook-ceph-cluster.17a69fccce8e2626",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1310240",
+                "uid": "c258f5ed-d96d-4535-8f49-d439bf037ffd"
+            },
+            "reason": "InstallFailed",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:58:31Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "rook-ceph-cluster",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1307376",
+                "uid": "f72c9917-55cd-4a2d-ab7f-304ee58e6751"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:58:31Z",
+            "message": "Helm uninstall remediation for release rook-ceph/rook-ceph-cluster.v1 with chart rook-ceph-cluster@v1.13.1 failed: uninstallation completed with 1 error(s): context deadline exceeded\n\nLast Helm logs:\n\n2024-01-02T19:53:31.327064662Z: Starting delete for \"ceph-block\" StorageClass\n2024-01-02T19:53:31.327177561Z: Starting delete for \"ceph-filesystem\" StorageClass\n2024-01-02T19:53:31.349610646Z: Starting delete for \"ceph-blockpool\" CephBlockPool\n2024-01-02T19:53:31.361601245Z: Starting delete for \"rook-ceph\" CephCluster\n2024-01-02T19:53:31.372678329Z: Starting delete for \"ceph-filesystem\" CephFilesystem\n2024-01-02T19:53:31.385650534Z: Starting delete for \"ceph-filesystem-csi\" CephFilesystemSubVolumeGroup\n2024-01-02T19:53:31.388658594Z: Starting delete for \"ceph-objectstore\" CephObjectStore\n2024-01-02T19:53:31.393886966Z: Starting delete for \"prometheus-ceph-rules\" PrometheusRule\n2024-01-02T19:53:31.398967507Z: beginning wait for 10 resources to be deleted with timeout of 5m0s\n2024-01-02T19:58:31.400425979Z: purge requested for rook-ceph-cluster",
+            "metadata": {
+                "annotations": {
+                    "helm.toolkit.fluxcd.io/revision": "v1.13.1",
+                    "helm.toolkit.fluxcd.io/token": "sha256:4707238e5a46b4a6213a756df0e55daff4af3c652c135d56abe8e7d1c218f76f"
+                },
+                "creationTimestamp": "2024-01-02T19:58:31Z",
+                "name": "rook-ceph-cluster.17a6a012c1951b80",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1312754",
+                "uid": "c25c439a-77b4-4498-be61-b14d744e1a99"
+            },
+            "reason": "UninstallFailed",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T20:03:45Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "rook-ceph-cluster",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1312757",
+                "uid": "f72c9917-55cd-4a2d-ab7f-304ee58e6751"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:03:45Z",
+            "message": "Helm install failed for release rook-ceph/rook-ceph-cluster with chart rook-ceph-cluster@v1.13.1: context deadline exceeded\n\nLast Helm logs:\n\n2024-01-02T19:58:44.235051004Z: Created a new StorageClass called \"ceph-bucket\" in \n\n2024-01-02T19:58:44.355353585Z: Created a new Deployment called \"rook-ceph-tools\" in rook-ceph\n\n2024-01-02T19:58:44.363079465Z: Looks like there are no changes for CephBlockPool \"ceph-blockpool\"\n2024-01-02T19:58:44.609403115Z: Looks like there are no changes for CephCluster \"rook-ceph\"\n2024-01-02T19:58:44.914385921Z: Looks like there are no changes for CephFilesystem \"ceph-filesystem\"\n2024-01-02T19:58:44.926671197Z: Looks like there are no changes for CephFilesystemSubVolumeGroup \"ceph-filesystem-csi\"\n2024-01-02T19:58:44.973719317Z: Looks like there are no changes for CephObjectStore \"ceph-objectstore\"\n2024-01-02T19:58:44.999287262Z: Created a new PrometheusRule called \"prometheus-ceph-rules\" in rook-ceph\n\n2024-01-02T19:58:44.999297428Z: beginning wait for 10 resources with timeout of 5m0s\n2024-01-02T19:58:45.008747116Z: Deployment is not ready: rook-ceph/rook-ceph-tools. 0 out of 1 expected pods are ready\n2024-01-02T20:03:43.024604909Z: Deployment is not ready: rook-ceph/rook-ceph-tools. 0 out of 1 expected pods are ready (149 duplicate lines omitted)",
+            "metadata": {
+                "annotations": {
+                    "helm.toolkit.fluxcd.io/revision": "v1.13.1",
+                    "helm.toolkit.fluxcd.io/token": "sha256:4707238e5a46b4a6213a756df0e55daff4af3c652c135d56abe8e7d1c218f76f"
+                },
+                "creationTimestamp": "2024-01-02T20:03:45Z",
+                "name": "rook-ceph-cluster.17a6a05bc51544a0",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1315653",
+                "uid": "af15289a-10d8-4bd1-a445-a40297d215b0"
+            },
+            "reason": "InstallFailed",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T20:08:45Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "rook-ceph-cluster",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1312757",
+                "uid": "f72c9917-55cd-4a2d-ab7f-304ee58e6751"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:08:45Z",
+            "message": "Helm uninstall remediation for release rook-ceph/rook-ceph-cluster.v1 with chart rook-ceph-cluster@v1.13.1 failed: uninstallation completed with 1 error(s): context deadline exceeded\n\nLast Helm logs:\n\n2024-01-02T20:03:45.314822259Z: Starting delete for \"ceph-block\" StorageClass\n2024-01-02T20:03:45.314886975Z: Starting delete for \"ceph-filesystem\" StorageClass\n2024-01-02T20:03:45.355600633Z: Starting delete for \"ceph-blockpool\" CephBlockPool\n2024-01-02T20:03:45.463784446Z: Starting delete for \"rook-ceph\" CephCluster\n2024-01-02T20:03:45.562957274Z: Starting delete for \"ceph-filesystem\" CephFilesystem\n2024-01-02T20:03:45.571750002Z: Starting delete for \"ceph-filesystem-csi\" CephFilesystemSubVolumeGroup\n2024-01-02T20:03:45.585095866Z: Starting delete for \"ceph-objectstore\" CephObjectStore\n2024-01-02T20:03:45.600208402Z: Starting delete for \"prometheus-ceph-rules\" PrometheusRule\n2024-01-02T20:03:45.607717798Z: beginning wait for 10 resources to be deleted with timeout of 5m0s\n2024-01-02T20:08:45.623908188Z: purge requested for rook-ceph-cluster",
+            "metadata": {
+                "annotations": {
+                    "helm.toolkit.fluxcd.io/revision": "v1.13.1",
+                    "helm.toolkit.fluxcd.io/token": "sha256:4707238e5a46b4a6213a756df0e55daff4af3c652c135d56abe8e7d1c218f76f"
+                },
+                "creationTimestamp": "2024-01-02T20:08:45Z",
+                "name": "rook-ceph-cluster.17a6a0a1c3abea8b",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1318181",
+                "uid": "bbe8ac81-a1a0-4b78-ae76-b10d1fe3692b"
+            },
+            "reason": "UninstallFailed",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T20:14:00Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "rook-ceph-cluster",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1318182",
+                "uid": "f72c9917-55cd-4a2d-ab7f-304ee58e6751"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:14:00Z",
+            "message": "Helm install failed for release rook-ceph/rook-ceph-cluster with chart rook-ceph-cluster@v1.13.1: context deadline exceeded\n\nLast Helm logs:\n\n2024-01-02T20:08:59.601088462Z: Created a new StorageClass called \"ceph-bucket\" in \n\n2024-01-02T20:08:59.728334531Z: Created a new Deployment called \"rook-ceph-tools\" in rook-ceph\n\n2024-01-02T20:08:59.939083083Z: Looks like there are no changes for CephBlockPool \"ceph-blockpool\"\n2024-01-02T20:08:59.999595921Z: Looks like there are no changes for CephCluster \"rook-ceph\"\n2024-01-02T20:09:00.082454668Z: Looks like there are no changes for CephFilesystem \"ceph-filesystem\"\n2024-01-02T20:09:00.091986108Z: Looks like there are no changes for CephFilesystemSubVolumeGroup \"ceph-filesystem-csi\"\n2024-01-02T20:09:00.119682742Z: Looks like there are no changes for CephObjectStore \"ceph-objectstore\"\n2024-01-02T20:09:00.340775539Z: Created a new PrometheusRule called \"prometheus-ceph-rules\" in rook-ceph\n\n2024-01-02T20:09:00.340785918Z: beginning wait for 10 resources with timeout of 5m0s\n2024-01-02T20:09:00.389543295Z: Deployment is not ready: rook-ceph/rook-ceph-tools. 0 out of 1 expected pods are ready\n2024-01-02T20:13:58.40753162Z: Deployment is not ready: rook-ceph/rook-ceph-tools. 0 out of 1 expected pods are ready (149 duplicate lines omitted)",
+            "metadata": {
+                "annotations": {
+                    "helm.toolkit.fluxcd.io/revision": "v1.13.1",
+                    "helm.toolkit.fluxcd.io/token": "sha256:4707238e5a46b4a6213a756df0e55daff4af3c652c135d56abe8e7d1c218f76f"
+                },
+                "creationTimestamp": "2024-01-02T20:14:00Z",
+                "name": "rook-ceph-cluster.17a6a0eb0f5c0861",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1320869",
+                "uid": "e53ddc80-15a7-43c3-adeb-19cc86e762cd"
+            },
+            "reason": "InstallFailed",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-02T19:38:18.355537Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-csi-detect-version-55v2s",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302117",
+                "uid": "4f1f8d9a-7cf4-4537-a51a-22bb45933a9c"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned rook-ceph/rook-ceph-csi-detect-version-55v2s to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:38:18Z",
+                "name": "rook-ceph-csi-detect-version-55v2s.17a69ef8511248c3",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302121",
+                "uid": "888d54c8-509b-4d34-ad39-15debbbebd42"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:40:59Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{cmd-reporter}",
+                "kind": "Pod",
+                "name": "rook-ceph-csi-detect-version-55v2s",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302118",
+                "uid": "4f1f8d9a-7cf4-4537-a51a-22bb45933a9c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:40:59Z",
+            "message": "Successfully pulled image \"quay.io/cephcsi/cephcsi:v3.10.1\" in 2m34.744s (2m34.744s including waiting)",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:40:59Z",
+                "name": "rook-ceph-csi-detect-version-55v2s.17a69f1dc7614195",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303340",
+                "uid": "60418449-e8f2-4449-9fb5-3e26fa371ed3"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:40:59Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{cmd-reporter}",
+                "kind": "Pod",
+                "name": "rook-ceph-csi-detect-version-55v2s",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302118",
+                "uid": "4f1f8d9a-7cf4-4537-a51a-22bb45933a9c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:40:59Z",
+            "message": "Created container cmd-reporter",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:40:59Z",
+                "name": "rook-ceph-csi-detect-version-55v2s.17a69f1dcb6831b4",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303341",
+                "uid": "17fbacee-edbb-4946-8398-04dbf834a18e"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:40:59Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{cmd-reporter}",
+                "kind": "Pod",
+                "name": "rook-ceph-csi-detect-version-55v2s",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302118",
+                "uid": "4f1f8d9a-7cf4-4537-a51a-22bb45933a9c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:40:59Z",
+            "message": "Started container cmd-reporter",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:40:59Z",
+                "name": "rook-ceph-csi-detect-version-55v2s.17a69f1de8bd4683",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303345",
+                "uid": "2eda78a9-b27a-4708-8c2c-a4d14f2cce37"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:41:02Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{cmd-reporter}",
+                "kind": "Pod",
+                "name": "rook-ceph-csi-detect-version-55v2s",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302118",
+                "uid": "4f1f8d9a-7cf4-4537-a51a-22bb45933a9c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:41:02Z",
+            "message": "Stopping container cmd-reporter",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:41:02Z",
+                "name": "rook-ceph-csi-detect-version-55v2s.17a69f1e9a10ed30",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303377",
+                "uid": "10e239b9-c365-4896-a429-7a0ce3aae1bd"
+            },
+            "reason": "Killing",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:42:00Z",
+            "involvedObject": {
+                "apiVersion": "coordination.k8s.io/v1",
+                "kind": "Lease",
+                "name": "rook-ceph-rbd-csi-ceph-com",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303956",
+                "uid": "5dfb4655-4e46-4425-b101-8ea0a0618483"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:42:00Z",
+            "message": "1704224519818-268-rook-ceph-rbd-csi-ceph-com became leader",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:42:00Z",
+                "name": "rook-ceph-rbd-csi-ceph-com.17a69f2bfc953117",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1303958",
+                "uid": "3e1935e0-b7e0-4370-96dc-e59330f0192d"
+            },
+            "reason": "LeaderElection",
+            "reportingComponent": "rook-ceph.rbd.csi.ceph.com/1704224519818-268-rook-ceph.rbd.csi.ceph.com",
+            "reportingInstance": "",
+            "source": {
+                "component": "rook-ceph.rbd.csi.ceph.com/1704224519818-268-rook-ceph.rbd.csi.ceph.com"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-02T19:58:44.691480Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-h7svm",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1312863",
+                "uid": "3c23e78a-0e3d-4407-90c2-be12a0c09e27"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned rook-ceph/rook-ceph-tools-6b84bc46f4-h7svm to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:58:44Z",
+                "name": "rook-ceph-tools-6b84bc46f4-h7svm.17a6a015d863be36",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1312870",
+                "uid": "bdcb906e-4183-4064-84f2-30402102ccb1"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 10,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:58:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-h7svm",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1312866",
+                "uid": "3c23e78a-0e3d-4407-90c2-be12a0c09e27"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:02:54Z",
+            "message": "MountVolume.SetUp failed for volume \"mon-endpoint-volume\" : configmap \"rook-ceph-mon-endpoints\" not found",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:58:44Z",
+                "name": "rook-ceph-tools-6b84bc46f4-h7svm.17a6a015e45ae886",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1315228",
+                "uid": "17d9cad3-895e-41a9-9ae7-b3f8e3285d23"
+            },
+            "reason": "FailedMount",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 10,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:58:44Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-h7svm",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1312866",
+                "uid": "3c23e78a-0e3d-4407-90c2-be12a0c09e27"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:02:54Z",
+            "message": "MountVolume.SetUp failed for volume \"ceph-admin-secret\" : secret \"rook-ceph-mon\" not found",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:58:44Z",
+                "name": "rook-ceph-tools-6b84bc46f4-h7svm.17a6a015e48caed8",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1315229",
+                "uid": "00bad1e4-53fa-469a-ac4f-619132bfd08e"
+            },
+            "reason": "FailedMount",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Warning"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-02T20:09:00.005072Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-hd7lt",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1318319",
+                "uid": "3d9ee38c-6f70-40f7-9107-94d73d911931"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned rook-ceph/rook-ceph-tools-6b84bc46f4-hd7lt to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T20:09:00Z",
+                "name": "rook-ceph-tools-6b84bc46f4-hd7lt.17a6a0a51bf008d5",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1318324",
+                "uid": "c41d8fab-029b-4751-a71d-5065b2d8bd2d"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 21,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T20:09:00Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-hd7lt",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1318321",
+                "uid": "3d9ee38c-6f70-40f7-9107-94d73d911931"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:35:32Z",
+            "message": "MountVolume.SetUp failed for volume \"mon-endpoint-volume\" : configmap \"rook-ceph-mon-endpoints\" not found",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T20:09:00Z",
+                "name": "rook-ceph-tools-6b84bc46f4-hd7lt.17a6a0a5295514fd",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1332171",
+                "uid": "f926d073-23ac-4251-b751-83d6bb20f8c3"
+            },
+            "reason": "FailedMount",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 13,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T20:09:00Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-hd7lt",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1318321",
+                "uid": "3d9ee38c-6f70-40f7-9107-94d73d911931"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:19:16Z",
+            "message": "MountVolume.SetUp failed for volume \"ceph-admin-secret\" : secret \"rook-ceph-mon\" not found",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T20:09:00Z",
+                "name": "rook-ceph-tools-6b84bc46f4-hd7lt.17a6a0a529921721",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1323971",
+                "uid": "2736fed3-00ea-478c-aedb-3fde057769b6"
+            },
+            "reason": "FailedMount",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Warning"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-02T19:48:30.860406Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-l7xrl",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1307495",
+                "uid": "c922115f-83e4-4442-b814-a4e796f501f1"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned rook-ceph/rook-ceph-tools-6b84bc46f4-l7xrl to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:48:30Z",
+                "name": "rook-ceph-tools-6b84bc46f4-l7xrl.17a69f86ed34dfdd",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1307501",
+                "uid": "08f4066c-e8d4-4f17-8d44-64372cea3add"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 10,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:48:31Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-l7xrl",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1307497",
+                "uid": "c922115f-83e4-4442-b814-a4e796f501f1"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:52:40Z",
+            "message": "MountVolume.SetUp failed for volume \"ceph-admin-secret\" : secret \"rook-ceph-mon\" not found",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:48:31Z",
+                "name": "rook-ceph-tools-6b84bc46f4-l7xrl.17a69f86f5f64381",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1309818",
+                "uid": "f7a127d7-472c-47d7-80c4-abf94e779667"
+            },
+            "reason": "FailedMount",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 10,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:48:31Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-l7xrl",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1307497",
+                "uid": "c922115f-83e4-4442-b814-a4e796f501f1"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:52:40Z",
+            "message": "MountVolume.SetUp failed for volume \"mon-endpoint-volume\" : configmap \"rook-ceph-mon-endpoints\" not found",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:48:31Z",
+                "name": "rook-ceph-tools-6b84bc46f4-l7xrl.17a69f86f5f70524",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1309817",
+                "uid": "a1abfc8d-8668-4831-8d0c-2e3f692219a4"
+            },
+            "reason": "FailedMount",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Warning"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-02T19:38:17.028530Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-mjjsf",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302072",
+                "uid": "fb73b036-4502-4a34-a747-227848ccf98e"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned rook-ceph/rook-ceph-tools-6b84bc46f4-mjjsf to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:38:17Z",
+                "name": "rook-ceph-tools-6b84bc46f4-mjjsf.17a69ef801f9be81",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302083",
+                "uid": "e1c5ea66-c60a-4dfb-9333-f760a17537e4"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 10,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:38:17Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-mjjsf",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302074",
+                "uid": "fb73b036-4502-4a34-a747-227848ccf98e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:42:27Z",
+            "message": "MountVolume.SetUp failed for volume \"mon-endpoint-volume\" : configmap \"rook-ceph-mon-endpoints\" not found",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:38:17Z",
+                "name": "rook-ceph-tools-6b84bc46f4-mjjsf.17a69ef81742f5d4",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304189",
+                "uid": "3260a0c1-1200-410d-b68b-ffabae52cd7f"
+            },
+            "reason": "FailedMount",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 10,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:38:17Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "rook-ceph-tools-6b84bc46f4-mjjsf",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302074",
+                "uid": "fb73b036-4502-4a34-a747-227848ccf98e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:42:27Z",
+            "message": "MountVolume.SetUp failed for volume \"ceph-admin-secret\" : secret \"rook-ceph-mon\" not found",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:38:17Z",
+                "name": "rook-ceph-tools-6b84bc46f4-mjjsf.17a69ef817488d17",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304188",
+                "uid": "14f8e581-0a6d-4c73-8862-649d9f299278"
+            },
+            "reason": "FailedMount",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:48:30Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "rook-ceph-tools-6b84bc46f4",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1307491",
+                "uid": "4b671ea9-928c-422d-98eb-fcc075706278"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:48:30Z",
+            "message": "Created pod: rook-ceph-tools-6b84bc46f4-l7xrl",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:48:30Z",
+                "name": "rook-ceph-tools-6b84bc46f4.17a69f86ebc2aa10",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1307496",
+                "uid": "59793323-2a71-4164-98e9-38ce2fcf90be"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:58:44Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "rook-ceph-tools-6b84bc46f4",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1312859",
+                "uid": "ae14cc4c-b379-4bba-bda1-f3d496d3d4e3"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:58:44Z",
+            "message": "Created pod: rook-ceph-tools-6b84bc46f4-h7svm",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:58:44Z",
+                "name": "rook-ceph-tools-6b84bc46f4.17a6a015d4b5b490",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1312865",
+                "uid": "a371eb60-2f74-49a5-a62e-434566d718b2"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T20:08:59Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "rook-ceph-tools-6b84bc46f4",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1318311",
+                "uid": "c657e39e-7091-48c9-afaa-335a6e292ead"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:08:59Z",
+            "message": "Created pod: rook-ceph-tools-6b84bc46f4-hd7lt",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T20:08:59Z",
+                "name": "rook-ceph-tools-6b84bc46f4.17a6a0a51b81fe57",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1318322",
+                "uid": "fbd63057-e811-40eb-9429-f143892a9b77"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:48:30Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "rook-ceph-tools",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1307490",
+                "uid": "07d1ed0a-4b79-4779-9e1c-330210bb72d2"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:48:30Z",
+            "message": "Scaled up replica set rook-ceph-tools-6b84bc46f4 to 1",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:48:30Z",
+                "name": "rook-ceph-tools.17a69f86e6071c44",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1307492",
+                "uid": "b21f4038-7906-4783-ba81-aaae3faf1050"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:58:44Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "rook-ceph-tools",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1312858",
+                "uid": "8aca6b5c-dac6-46a0-8fc8-4c2598f4010a"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:58:44Z",
+            "message": "Scaled up replica set rook-ceph-tools-6b84bc46f4 to 1",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:58:44Z",
+                "name": "rook-ceph-tools.17a6a015cb8b3dbf",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1312861",
+                "uid": "57f128bf-a463-479e-a55a-f46625624842"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T20:08:59Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "rook-ceph-tools",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1318310",
+                "uid": "281519fc-0d71-4422-baa2-f552f65ec216"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:08:59Z",
+            "message": "Scaled up replica set rook-ceph-tools-6b84bc46f4 to 1",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T20:08:59Z",
+                "name": "rook-ceph-tools.17a6a0a5127e1a29",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1318313",
+                "uid": "7704da83-458c-4876-accf-def690727149"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:43:19Z",
+            "involvedObject": {
+                "apiVersion": "ceph.rook.io/v1",
+                "kind": "CephCluster",
+                "name": "rook-ceph",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1302080",
+                "uid": "d4589de4-ceb2-4573-a515-54ead9098c55"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T19:43:19Z",
+            "message": "successfully configured CephCluster \"rook-ceph/rook-ceph\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:43:19Z",
+                "name": "rook-ceph.17a69f3e5862ea35",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304636",
+                "uid": "4fb75fc9-f4a4-4035-abc8-65b96da07036"
+            },
+            "reason": "ReconcileSucceeded",
+            "reportingComponent": "rook-ceph-cluster-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "rook-ceph-cluster-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 328,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:43:19Z",
+            "involvedObject": {
+                "apiVersion": "ceph.rook.io/v1",
+                "kind": "CephCluster",
+                "name": "rook-ceph",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1304643",
+                "uid": "d4589de4-ceb2-4573-a515-54ead9098c55"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-02T20:38:28Z",
+            "message": "failed to reconcile CephCluster \"rook-ceph/rook-ceph\". CephCluster \"rook-ceph/rook-ceph\" will not be deleted until all dependents are removed: CephBlockPool: [ceph-blockpool], CephFilesystem: [ceph-filesystem], CephFilesystemSubVolumeGroup: [ceph-filesystem-csi], CephObjectStore: [ceph-objectstore]",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:43:19Z",
+                "name": "rook-ceph.17a69f3e621458cd",
+                "namespace": "rook-ceph",
+                "resourceVersion": "1333651",
+                "uid": "4690bab3-ca05-4868-be58-87a51a1dea44"
+            },
+            "reason": "ReconcileFailed",
+            "reportingComponent": "rook-ceph-cluster-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "rook-ceph-cluster-controller"
+            },
+            "type": "Warning"
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}

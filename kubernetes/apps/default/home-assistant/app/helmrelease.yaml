@@ -24,20 +24,8 @@ spec:
         fsGroupChangePolicy: OnRootMismatch
     controllers:
       main:
-        type: statefulset
-        annotations:
-          reloader.stakater.com/auto: "true"
-        pod:
-          enableServiceLinks: false
-        statefulset:
-          volumeClaimTemplates:
-            - name: config
-              accessMode: ReadWriteOnce
-              size: 128Gi
-              storageClass: ceph-rbd
-              globalMounts:
-                - path: /config
         containers:
+
           main:
             image:
               repository: ghcr.io/home-assistant/home-assistant
@@ -57,6 +45,7 @@ spec:
                 memory: 100Mi
               limits:
                 memory: 750Mi
+
           code:
             dependsOn: main
             image:
@@ -72,6 +61,14 @@ spec:
               - --port
               - "8081"
               - "/config"
+
+    persistence:
+      config:
+        enabled: true
+        retain: true
+        storageClass: home-assistant-pv
+        size: 2Gi
+
     service:
       main:
         ports:
@@ -82,7 +79,9 @@ spec:
         ports:
           http:
             port: &codeport 8081
+
     ingress:
+
       main:
         enabled: true
         className: internal
@@ -99,6 +98,7 @@ spec:
         tls:
           - hosts:
               - *host
+
       code:
         enabled: true
         className: internal
