@@ -7,7 +7,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteMany
+  storageClassName: local-path
   resources:
     requests:
       storage: 2Gi
-  storageClassName: local-path

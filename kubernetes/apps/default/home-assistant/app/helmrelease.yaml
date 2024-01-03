@@ -73,6 +73,7 @@ spec:
         ports:
           http:
             port: &port 8123
+
       code:
         controller: main
         ports:
