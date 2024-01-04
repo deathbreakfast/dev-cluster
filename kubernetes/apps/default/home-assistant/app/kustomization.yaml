@@ -5,3 +5,9 @@ namespace: default
 resources:
   - ./helmrelease.yaml
   - ./pvc.yaml
+configMapGenerator:
+  - name: home-assistant-init
+    files:
+      - init/configration.yaml
+generatorOptions:
+  disableNameSuffixHash: True

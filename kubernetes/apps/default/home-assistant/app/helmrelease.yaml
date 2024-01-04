@@ -38,6 +38,8 @@ spec:
               tag: 2023.12.3
             env:
               TZ: America/Los_Angeles
+              HASS_TRUSTED_PROXIES: ${CONFIG_CLUSTER_PODS_NETWORK_IP_POOL}
+
             probes:
               liveness:
                 enabled: false
