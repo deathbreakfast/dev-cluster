@@ -1,0 +1,796 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "count": 6642,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-02T19:59:52Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "config-home-assistant-0",
+                "namespace": "default",
+                "resourceVersion": "1313662",
+                "uid": "df877df7-c882-4b46-8cb4-5426c23213ae"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:40:02Z",
+            "message": "storageclass.storage.k8s.io \"ceph-rbd\" not found",
+            "metadata": {
+                "creationTimestamp": "2024-01-02T19:59:52Z",
+                "name": "config-home-assistant-0.17a6a025a6edb8e1",
+                "namespace": "default",
+                "resourceVersion": "2152924",
+                "uid": "9dcb8845-26d7-490e-af8a-e072e43e0eb5"
+            },
+            "reason": "ProvisioningFailed",
+            "reportingComponent": "persistentvolume-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "persistentvolume-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-03T23:35:37.674587Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "home-assistant-9dc588ddf-j5sz7",
+                "namespace": "default",
+                "resourceVersion": "2150855",
+                "uid": "1c642c28-c89d-4101-b403-149b3cc5ba80"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned default/home-assistant-9dc588ddf-j5sz7 to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:35:37Z",
+                "name": "home-assistant-9dc588ddf-j5sz7.17a6fa803bef0cc7",
+                "namespace": "default",
+                "resourceVersion": "2150954",
+                "uid": "33ca5066-33ec-4b2f-aa36-386772e1b4bf"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:35:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{main}",
+                "kind": "Pod",
+                "name": "home-assistant-9dc588ddf-j5sz7",
+                "namespace": "default",
+                "resourceVersion": "2150953",
+                "uid": "1c642c28-c89d-4101-b403-149b3cc5ba80"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:35:38Z",
+            "message": "Pulling image \"ghcr.io/home-assistant/home-assistant:2023.12.3\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:35:38Z",
+                "name": "home-assistant-9dc588ddf-j5sz7.17a6fa8079590c11",
+                "namespace": "default",
+                "resourceVersion": "2150977",
+                "uid": "c0515d27-0845-43cf-b3fe-0ff79f9a0398"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:39:03Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{main}",
+                "kind": "Pod",
+                "name": "home-assistant-9dc588ddf-j5sz7",
+                "namespace": "default",
+                "resourceVersion": "2150953",
+                "uid": "1c642c28-c89d-4101-b403-149b3cc5ba80"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:39:03Z",
+            "message": "Successfully pulled image \"ghcr.io/home-assistant/home-assistant:2023.12.3\" in 3m24.77s (3m24.77s including waiting)",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:39:03Z",
+                "name": "home-assistant-9dc588ddf-j5sz7.17a6fab026a382f8",
+                "namespace": "default",
+                "resourceVersion": "2152506",
+                "uid": "75801c64-354d-47b5-aa28-734fa2250554"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:39:03Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{main}",
+                "kind": "Pod",
+                "name": "home-assistant-9dc588ddf-j5sz7",
+                "namespace": "default",
+                "resourceVersion": "2150953",
+                "uid": "1c642c28-c89d-4101-b403-149b3cc5ba80"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:39:03Z",
+            "message": "Created container main",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:39:03Z",
+                "name": "home-assistant-9dc588ddf-j5sz7.17a6fab02ed8bb84",
+                "namespace": "default",
+                "resourceVersion": "2152508",
+                "uid": "9f878b4a-b459-4944-b2c9-a9cb8847cfbf"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:39:04Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{main}",
+                "kind": "Pod",
+                "name": "home-assistant-9dc588ddf-j5sz7",
+                "namespace": "default",
+                "resourceVersion": "2150953",
+                "uid": "1c642c28-c89d-4101-b403-149b3cc5ba80"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:39:04Z",
+            "message": "Started container main",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:39:04Z",
+                "name": "home-assistant-9dc588ddf-j5sz7.17a6fab04d358ed4",
+                "namespace": "default",
+                "resourceVersion": "2152510",
+                "uid": "f518032b-7929-48f1-95f9-ced802bde33b"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:39:04Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{code}",
+                "kind": "Pod",
+                "name": "home-assistant-9dc588ddf-j5sz7",
+                "namespace": "default",
+                "resourceVersion": "2150953",
+                "uid": "1c642c28-c89d-4101-b403-149b3cc5ba80"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:39:04Z",
+            "message": "Pulling image \"ghcr.io/coder/code-server:4.19.1\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:39:04Z",
+                "name": "home-assistant-9dc588ddf-j5sz7.17a6fab04d482da0",
+                "namespace": "default",
+                "resourceVersion": "2152511",
+                "uid": "b4250751-d1d9-4300-a165-8e4cfca4a0b1"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Scheduling",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-03T22:41:51.069957Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "home-assistant-9dc588ddf-sh75m",
+                "namespace": "default",
+                "resourceVersion": "2101111",
+                "uid": "b9034c12-6e15-4f2c-a1a3-3bf69df4a5da"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "running PreBind plugin \"VolumeBinding\": binding volumes: timed out waiting for the condition",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T22:41:51Z",
+                "name": "home-assistant-9dc588ddf-sh75m.17a6f790fb4f9bf5",
+                "namespace": "default",
+                "resourceVersion": "2125167",
+                "uid": "14a36ce6-86e7-4975-af44-baf7308aac6d"
+            },
+            "reason": "FailedScheduling",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Warning"
+        },
+        {
+            "action": "Scheduling",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-03T22:52:01.354106Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "home-assistant-9dc588ddf-sh75m",
+                "namespace": "default",
+                "resourceVersion": "2101111",
+                "uid": "b9034c12-6e15-4f2c-a1a3-3bf69df4a5da"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "running PreBind plugin \"VolumeBinding\": binding volumes: timed out waiting for the condition",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T22:52:01Z",
+                "name": "home-assistant-9dc588ddf-sh75m.17a6f81f1314b837",
+                "namespace": "default",
+                "resourceVersion": "2134743",
+                "uid": "11a7e722-87c0-41c3-a587-25dd9f831ea0"
+            },
+            "reason": "FailedScheduling",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "series": {
+                "count": 2,
+                "lastObservedTime": "2024-01-03T23:02:11.663677Z"
+            },
+            "source": {},
+            "type": "Warning"
+        },
+        {
+            "action": "Scheduling",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-03T23:12:21.722073Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "home-assistant-9dc588ddf-sh75m",
+                "namespace": "default",
+                "resourceVersion": "2101111",
+                "uid": "b9034c12-6e15-4f2c-a1a3-3bf69df4a5da"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "running PreBind plugin \"VolumeBinding\": binding volumes: timed out waiting for the condition",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:12:21Z",
+                "name": "home-assistant-9dc588ddf-sh75m.17a6f93b36ae17b9",
+                "namespace": "default",
+                "resourceVersion": "2139491",
+                "uid": "b850ac6b-6a6c-42f9-b178-41f82f01434f"
+            },
+            "reason": "FailedScheduling",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Warning"
+        },
+        {
+            "action": "Scheduling",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-03T23:22:32.039130Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "home-assistant-9dc588ddf-sh75m",
+                "namespace": "default",
+                "resourceVersion": "2101111",
+                "uid": "b9034c12-6e15-4f2c-a1a3-3bf69df4a5da"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "running PreBind plugin \"VolumeBinding\": binding volumes: timed out waiting for the condition",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:22:32Z",
+                "name": "home-assistant-9dc588ddf-sh75m.17a6f9c950695440",
+                "namespace": "default",
+                "resourceVersion": "2149085",
+                "uid": "e8ccbe3a-4321-4fe8-bc6f-f8d3d164b5a7"
+            },
+            "reason": "FailedScheduling",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "series": {
+                "count": 2,
+                "lastObservedTime": "2024-01-03T23:32:42.117857Z"
+            },
+            "source": {},
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:35:30Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "home-assistant-9dc588ddf",
+                "namespace": "default",
+                "resourceVersion": "2150849",
+                "uid": "53c8f7f1-8617-4bfe-934a-926ba653453c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:35:30Z",
+            "message": "Created pod: home-assistant-9dc588ddf-j5sz7",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:35:30Z",
+                "name": "home-assistant-9dc588ddf.17a6fa7e9900d461",
+                "namespace": "default",
+                "resourceVersion": "2150857",
+                "uid": "c8792ace-17ab-431e-8f14-13b72e440812"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:35:30Z",
+            "involvedObject": {
+                "apiVersion": "networking.k8s.io/v1",
+                "kind": "Ingress",
+                "name": "home-assistant-code",
+                "namespace": "default",
+                "resourceVersion": "2150847",
+                "uid": "b30cb213-9ab3-4df2-89c3-d126b9cb6ce6"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:36:17Z",
+            "message": "Scheduled for sync",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:35:30Z",
+                "name": "home-assistant-code.17a6fa7e91ccf049",
+                "namespace": "default",
+                "resourceVersion": "2151252",
+                "uid": "784dd751-8f04-4bd6-9e87-083faf217c04"
+            },
+            "reason": "Sync",
+            "reportingComponent": "",
+            "reportingInstance": "",
+            "source": {
+                "component": "nginx-ingress-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 442,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T21:41:24Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "home-assistant-pv",
+                "namespace": "default",
+                "resourceVersion": "2095954",
+                "uid": "624f3674-9ccf-4d7a-b7d6-5f9519fdbd90"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:31:31Z",
+            "message": "Waiting for a volume to be created either by the external provisioner 'cluster.local/local-path-provisioner' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T21:41:24Z",
+                "name": "home-assistant-pv.17a6f444829318a1",
+                "namespace": "default",
+                "resourceVersion": "2148544",
+                "uid": "a65ee649-270f-4e85-88c4-983a0e9997ec"
+            },
+            "reason": "ExternalProvisioning",
+            "reportingComponent": "persistentvolume-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "persistentvolume-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 20,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T21:41:25Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "home-assistant-pv",
+                "namespace": "default",
+                "resourceVersion": "2095954",
+                "uid": "624f3674-9ccf-4d7a-b7d6-5f9519fdbd90"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:34:53Z",
+            "message": "External provisioner is provisioning volume for claim \"default/home-assistant-pv\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T21:41:25Z",
+                "name": "home-assistant-pv.17a6f444b98a2545",
+                "namespace": "default",
+                "resourceVersion": "2150320",
+                "uid": "f7f251db-4b26-4dc1-bc3b-87c2d636f984"
+            },
+            "reason": "Provisioning",
+            "reportingComponent": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-tsnkw_e63f2138-4a04-4caa-a9a0-f49da1a5922c",
+            "reportingInstance": "",
+            "source": {
+                "component": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-tsnkw_e63f2138-4a04-4caa-a9a0-f49da1a5922c"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 20,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T21:41:25Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "home-assistant-pv",
+                "namespace": "default",
+                "resourceVersion": "2095954",
+                "uid": "624f3674-9ccf-4d7a-b7d6-5f9519fdbd90"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:34:53Z",
+            "message": "failed to provision volume with StorageClass \"local-path\": NodePath only supports ReadWriteOnce and ReadWriteOncePod (1.22+) access modes",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T21:41:25Z",
+                "name": "home-assistant-pv.17a6f444ba96f26a",
+                "namespace": "default",
+                "resourceVersion": "2150322",
+                "uid": "beced6af-65c6-4e4f-ac19-5cfde376567d"
+            },
+            "reason": "ProvisioningFailed",
+            "reportingComponent": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-tsnkw_e63f2138-4a04-4caa-a9a0-f49da1a5922c",
+            "reportingInstance": "",
+            "source": {
+                "component": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-tsnkw_e63f2138-4a04-4caa-a9a0-f49da1a5922c"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:35:26Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "home-assistant-pv",
+                "namespace": "default",
+                "resourceVersion": "2150758",
+                "uid": "0a7c1ebe-8cd5-4d1c-b2d3-40668f35f8ff"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:35:26Z",
+            "message": "waiting for first consumer to be created before binding",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:35:26Z",
+                "name": "home-assistant-pv.17a6fa7da38769c3",
+                "namespace": "default",
+                "resourceVersion": "2150759",
+                "uid": "c703fbe5-30bb-41e7-9a3e-a79dff4ca442"
+            },
+            "reason": "WaitForFirstConsumer",
+            "reportingComponent": "persistentvolume-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "persistentvolume-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:35:30Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "home-assistant-pv",
+                "namespace": "default",
+                "resourceVersion": "2150861",
+                "uid": "0a7c1ebe-8cd5-4d1c-b2d3-40668f35f8ff"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:35:31Z",
+            "message": "Waiting for a volume to be created either by the external provisioner 'cluster.local/local-path-provisioner' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:35:30Z",
+                "name": "home-assistant-pv.17a6fa7e9a5c697f",
+                "namespace": "default",
+                "resourceVersion": "2150880",
+                "uid": "1680a2b4-7431-4792-9b40-d2685148a5dd"
+            },
+            "reason": "ExternalProvisioning",
+            "reportingComponent": "persistentvolume-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "persistentvolume-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:35:30Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "home-assistant-pv",
+                "namespace": "default",
+                "resourceVersion": "2150861",
+                "uid": "0a7c1ebe-8cd5-4d1c-b2d3-40668f35f8ff"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:35:30Z",
+            "message": "External provisioner is provisioning volume for claim \"default/home-assistant-pv\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:35:30Z",
+                "name": "home-assistant-pv.17a6fa7ea1d5936f",
+                "namespace": "default",
+                "resourceVersion": "2150866",
+                "uid": "ba24dc1f-4a2c-420c-b523-94e9e603e5d9"
+            },
+            "reason": "Provisioning",
+            "reportingComponent": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-tsnkw_e63f2138-4a04-4caa-a9a0-f49da1a5922c",
+            "reportingInstance": "",
+            "source": {
+                "component": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-tsnkw_e63f2138-4a04-4caa-a9a0-f49da1a5922c"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:35:37Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "home-assistant-pv",
+                "namespace": "default",
+                "resourceVersion": "2150861",
+                "uid": "0a7c1ebe-8cd5-4d1c-b2d3-40668f35f8ff"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:35:37Z",
+            "message": "Successfully provisioned volume pvc-0a7c1ebe-8cd5-4d1c-b2d3-40668f35f8ff",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:35:37Z",
+                "name": "home-assistant-pv.17a6fa803613f88c",
+                "namespace": "default",
+                "resourceVersion": "2150950",
+                "uid": "13fdb170-7662-45f0-9906-34d89700471f"
+            },
+            "reason": "ProvisioningSucceeded",
+            "reportingComponent": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-tsnkw_e63f2138-4a04-4caa-a9a0-f49da1a5922c",
+            "reportingInstance": "",
+            "source": {
+                "component": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-tsnkw_e63f2138-4a04-4caa-a9a0-f49da1a5922c"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:34:53Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "home-assistant",
+                "namespace": "default",
+                "resourceVersion": "2150314",
+                "uid": "cfa1181b-92e5-472d-a723-d19762c7def3"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:34:53Z",
+            "message": "Helm uninstall succeeded for release default/home-assistant.v1 with chart app-template@2.4.0",
+            "metadata": {
+                "annotations": {
+                    "helm.toolkit.fluxcd.io/revision": "2.4.0",
+                    "helm.toolkit.fluxcd.io/token": "sha256:01b3b49a3749d6eec677ba34db01a230fca9f756db74df2685223d620b5e0b16"
+                },
+                "creationTimestamp": "2024-01-03T23:34:53Z",
+                "name": "home-assistant.17a6fa76068b1056",
+                "namespace": "default",
+                "resourceVersion": "2150341",
+                "uid": "6d7d83a5-3592-4a1c-b6d6-af8f52655f3c"
+            },
+            "reason": "UninstallSucceeded",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:34:53Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "home-assistant",
+                "namespace": "default",
+                "resourceVersion": "2150314",
+                "uid": "cfa1181b-92e5-472d-a723-d19762c7def3"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:34:53Z",
+            "message": "deleted HelmChart 'flux-system/default-home-assistant'",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:34:53Z",
+                "name": "home-assistant.17a6fa760be8d72c",
+                "namespace": "default",
+                "resourceVersion": "2150346",
+                "uid": "369a4f18-567f-49d1-9acf-99d4574600e1"
+            },
+            "reason": "HelmChartDeleted",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:35:27Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "home-assistant",
+                "namespace": "default",
+                "resourceVersion": "2150763",
+                "uid": "06d61319-c51b-4f0d-b935-4a38b70b78e4"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:35:27Z",
+            "message": "Created HelmChart/flux-system/default-home-assistant with SourceRef 'HelmRepository/flux-system/bjw-s'",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:35:27Z",
+                "name": "home-assistant.17a6fa7dd2fc1089",
+                "namespace": "default",
+                "resourceVersion": "2150775",
+                "uid": "c356cdef-86e2-4822-a0fb-ba3b42ca8656"
+            },
+            "reason": "HelmChartCreated",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:35:30Z",
+            "involvedObject": {
+                "apiVersion": "networking.k8s.io/v1",
+                "kind": "Ingress",
+                "name": "home-assistant",
+                "namespace": "default",
+                "resourceVersion": "2150846",
+                "uid": "09f92d49-bc0b-4016-a527-d6869058c825"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:36:17Z",
+            "message": "Scheduled for sync",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:35:30Z",
+                "name": "home-assistant.17a6fa7e91205c55",
+                "namespace": "default",
+                "resourceVersion": "2151253",
+                "uid": "50db05ad-54aa-4337-ba3a-1d9381bb5588"
+            },
+            "reason": "Sync",
+            "reportingComponent": "",
+            "reportingInstance": "",
+            "source": {
+                "component": "nginx-ingress-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-03T23:35:30Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "home-assistant",
+                "namespace": "default",
+                "resourceVersion": "2150845",
+                "uid": "009200e0-ac28-4808-9a39-9707590d5bc6"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-03T23:35:30Z",
+            "message": "Scaled up replica set home-assistant-9dc588ddf to 1",
+            "metadata": {
+                "creationTimestamp": "2024-01-03T23:35:30Z",
+                "name": "home-assistant.17a6fa7e96b27ef3",
+                "namespace": "default",
+                "resourceVersion": "2150852",
+                "uid": "62fd1ba4-05d5-463f-bffd-fd89781f2e69"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}

@@ -15,7 +15,7 @@ spec:
         namespace: flux-system
   maxHistory: 2
   install:
-  New_York  remediation:
+    remediation:
       retries: 3
   upgrade:
     cleanupOnFail: true
