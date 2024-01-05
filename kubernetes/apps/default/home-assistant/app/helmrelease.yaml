@@ -28,7 +28,7 @@ spec:
         runAsGroup: 568
         fsGroup: 568
         fsGroupChangePolicy: OnRootMismatch
-    controllersCONFIG_CLUSTER_PODS_NETWORK_IP_POOL:
+    controllers:
       main:
         initContainers:
           init:
