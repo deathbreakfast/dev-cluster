@@ -75,7 +75,7 @@ spec:
         enabled: true
         data:
           init.sh: |
-            #~/bin/sh
+            #!/bin/sh
             echo "run $0"
             cp -nv /init/* /config/
 
