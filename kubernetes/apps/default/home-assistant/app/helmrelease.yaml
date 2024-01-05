@@ -32,9 +32,9 @@ spec:
               repository: busybox
               tag: "1.36.1"
             command:
-            - "cat *"
-              #args:
-              #- "ls"
+              - "/bin/sh"
+            args:
+              - "/init.sh"
 
         containers:
           main:
