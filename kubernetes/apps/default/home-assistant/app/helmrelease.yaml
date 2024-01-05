@@ -32,7 +32,7 @@ spec:
               repository: busybox
               tag: "1.36.1"
             command:
-            - "ls && /bin/sh"
+            - "cat *"
               #args:
               #- "ls"
 
