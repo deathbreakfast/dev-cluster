@@ -28,23 +28,23 @@ spec:
         runAsGroup: 568
         fsGroup: 568
         fsGroupChangePolicy: OnRootMismatch
-    controllers:
+    controllersCONFIG_CLUSTER_PODS_NETWORK_IP_POOL:
       main:
         containers:
 
           main:
             image:
               repository: ghcr.io/home-assistant/home-assistant
-              tag: 2023.12.3
+              tag: 2024.1.0
             env:
               TZ: America/Los_Angeles
-              HASS_TRUSTED_PROXIES: ${CONFIG_CLUSTER_PODS_NETWORK_IP_POOL}
+              HASS_TRUSTED_PROXIES: ${CLUSTER_CIDR}
 
             initContainers:
               init:
                 image:
                   repository: busybox
-                  tag: "1.36.1"
+                  tag: 1.36.1
                 command:
                   - "/bin/sh"
                 args:
