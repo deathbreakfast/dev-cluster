@@ -83,7 +83,7 @@ spec:
           init.sh: |
             #!/bin/sh
             echo "run $0"
-            cp -mv /init/* /config/
+            cp -nv /init/* /config/
 
     persistence:
       config:
