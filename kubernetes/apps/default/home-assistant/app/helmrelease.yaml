@@ -96,6 +96,25 @@ spec:
             init:
               - path: /config
 
+      init:
+        enabled: true
+        type: configMap
+        name: home-assistant-init
+        advancedMounts:
+          main:
+            init:
+              - path: /init
+
+      scripts:
+        enabled: true
+        type: configMap
+        name: home-assistant-scripts
+        advancedMounts:
+          main:
+            init:
+              - path: /init.sh
+                subPath: init.sh
+
     service:
       main:
         ports:
