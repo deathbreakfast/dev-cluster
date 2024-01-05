@@ -89,7 +89,12 @@ spec:
       config:
         enabled: true
         existingClaim: home-assistant-pv
-        mountPath: /home-assistant
+        advancedMounts:
+          main:
+            main:
+              - path: /config
+            init:
+              - path: /config
 
     service:
       main:
