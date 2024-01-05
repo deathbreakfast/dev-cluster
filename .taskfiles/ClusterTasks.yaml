@@ -79,3 +79,13 @@ tasks:
       - task: certificates
       - task: ingresses
       - task: pods
+
+  resources-min:
+    desc: Gather minimized resources in your cluster, useful when asking for support
+    cmds:
+      - task: nodes
+      - task: kustomizations
+      - task: helmreleases
+      - task: certificates
+      - task: ingresses
+      - task: pods

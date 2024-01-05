@@ -34,7 +34,7 @@ spec:
             command:
             - "/bin/sh"
             args:
-            - "/init.sh"
+            - "ls"
 
         containers:
           main:
