@@ -40,6 +40,16 @@ spec:
               TZ: America/Los_Angeles
               HASS_TRUSTED_PROXIES: ${CONFIG_CLUSTER_PODS_NETWORK_IP_POOL}
 
+            initContainers:
+              init:
+                image:
+                  repository: busybox
+                  tag: "1.36.1"
+                command:
+                  - "/bin/sh"
+                args:
+                  - "/init.sh"
+
             probes:
               liveness:
                 enabled: false
