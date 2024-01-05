@@ -30,6 +30,16 @@ spec:
         fsGroupChangePolicy: OnRootMismatch
     controllersCONFIG_CLUSTER_PODS_NETWORK_IP_POOL:
       main:
+        initContainers:
+          init:
+            image:
+              repository: busybox
+              tag: 1.36.1
+            command:
+              - "/bin/sh"
+            args:
+              - "/init.sh"
+
         containers:
 
           main:
@@ -39,16 +49,6 @@ spec:
             env:
               TZ: America/Los_Angeles
               HASS_TRUSTED_PROXIES: ${CLUSTER_CIDR}
-
-            initContainers:
-              init:
-                image:
-                  repository: busybox
-                  tag: 1.36.1
-                command:
-                  - "/bin/sh"
-                args:
-                  - "/init.sh"
 
             probes:
               liveness:
