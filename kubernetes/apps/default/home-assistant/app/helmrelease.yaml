@@ -28,6 +28,7 @@ spec:
         runAsGroup: 568
         fsGroup: 568
         fsGroupChangePolicy: OnRootMismatch
+
     controllers:
       main:
         initContainers:
@@ -87,7 +88,7 @@ spec:
           init.sh: |
             #!/bin/sh
             echo "run $0"
-            cp -nv /init/* /config/
+            cp -mv /init/* /config/
 
     persistence:
       config:
