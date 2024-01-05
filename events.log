@@ -1,0 +1,1270 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-05T00:41:43.506647Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "hajimari-656cc67564-zwglf",
+                "namespace": "default",
+                "resourceVersion": "4457",
+                "uid": "55459d79-2c43-4225-8bd7-6459c0f853c0"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned default/hajimari-656cc67564-zwglf to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:41:43Z",
+                "name": "hajimari-656cc67564-zwglf.17a74cb02b410711",
+                "namespace": "default",
+                "resourceVersion": "4462",
+                "uid": "ce5c77b4-2716-4830-b414-c09160e46ee7"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:41:46Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{hajimari}",
+                "kind": "Pod",
+                "name": "hajimari-656cc67564-zwglf",
+                "namespace": "default",
+                "resourceVersion": "4459",
+                "uid": "55459d79-2c43-4225-8bd7-6459c0f853c0"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:41:46Z",
+            "message": "Pulling image \"ghcr.io/toboshii/hajimari:v0.3.1\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:41:46Z",
+                "name": "hajimari-656cc67564-zwglf.17a74cb0d448e271",
+                "namespace": "default",
+                "resourceVersion": "4507",
+                "uid": "4f1de50e-a1c9-4333-a081-e7024feb4c69"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:42:21Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{hajimari}",
+                "kind": "Pod",
+                "name": "hajimari-656cc67564-zwglf",
+                "namespace": "default",
+                "resourceVersion": "4459",
+                "uid": "55459d79-2c43-4225-8bd7-6459c0f853c0"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:42:21Z",
+            "message": "Successfully pulled image \"ghcr.io/toboshii/hajimari:v0.3.1\" in 34.914s (34.914s including waiting)",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:42:21Z",
+                "name": "hajimari-656cc67564-zwglf.17a74cb8f55e06b9",
+                "namespace": "default",
+                "resourceVersion": "4820",
+                "uid": "6fd099cc-59ea-4581-be6a-2539ee5a78ad"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:42:21Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{hajimari}",
+                "kind": "Pod",
+                "name": "hajimari-656cc67564-zwglf",
+                "namespace": "default",
+                "resourceVersion": "4459",
+                "uid": "55459d79-2c43-4225-8bd7-6459c0f853c0"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:42:21Z",
+            "message": "Created container hajimari",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:42:21Z",
+                "name": "hajimari-656cc67564-zwglf.17a74cb9143253be",
+                "namespace": "default",
+                "resourceVersion": "4825",
+                "uid": "abe26411-d18c-499c-9437-c8b8beddd164"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:42:22Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{hajimari}",
+                "kind": "Pod",
+                "name": "hajimari-656cc67564-zwglf",
+                "namespace": "default",
+                "resourceVersion": "4459",
+                "uid": "55459d79-2c43-4225-8bd7-6459c0f853c0"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:42:22Z",
+            "message": "Started container hajimari",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:42:22Z",
+                "name": "hajimari-656cc67564-zwglf.17a74cb94ea7d8c4",
+                "namespace": "default",
+                "resourceVersion": "4837",
+                "uid": "a78faf99-0ee0-47bc-96d5-e820c668d602"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:41:43Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "hajimari-656cc67564",
+                "namespace": "default",
+                "resourceVersion": "4455",
+                "uid": "7d075302-d4db-46f6-90a5-de5bf3c719ef"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:41:43Z",
+            "message": "Created pod: hajimari-656cc67564-zwglf",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:41:43Z",
+                "name": "hajimari-656cc67564.17a74cb02aefce82",
+                "namespace": "default",
+                "resourceVersion": "4460",
+                "uid": "da06bc31-26e7-49c2-af2f-31a20583620d"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:41:37Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "hajimari",
+                "namespace": "default",
+                "resourceVersion": "4051",
+                "uid": "d455f7d4-c427-4189-b8a1-f25915b512ab"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:41:37Z",
+            "message": "Created HelmChart/flux-system/default-hajimari with SourceRef 'HelmRepository/flux-system/hajimari'",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:41:37Z",
+                "name": "hajimari.17a74caebd2e0829",
+                "namespace": "default",
+                "resourceVersion": "4123",
+                "uid": "4d1dd99e-1e66-4be8-b85e-8f892519f7d5"
+            },
+            "reason": "HelmChartCreated",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:41:43Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "hajimari",
+                "namespace": "default",
+                "resourceVersion": "4453",
+                "uid": "7be926f5-33a9-4aac-8b37-9f620b464260"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:41:43Z",
+            "message": "Scaled up replica set hajimari-656cc67564 to 1",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:41:43Z",
+                "name": "hajimari.17a74cb02a6ec8b8",
+                "namespace": "default",
+                "resourceVersion": "4456",
+                "uid": "f462373b-6862-431d-a197-f83c5890b37a"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:42:25Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "hajimari",
+                "namespace": "default",
+                "resourceVersion": "4142",
+                "uid": "d455f7d4-c427-4189-b8a1-f25915b512ab"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:42:25Z",
+            "message": "Helm install succeeded for release default/hajimari.v1 with chart hajimari@2.0.2",
+            "metadata": {
+                "annotations": {
+                    "helm.toolkit.fluxcd.io/revision": "2.0.2",
+                    "helm.toolkit.fluxcd.io/token": "sha256:1827bdc272c2c54e65db31581db96b7022ba520152c8f0226977c7a9b3e48dd8"
+                },
+                "creationTimestamp": "2024-01-05T00:42:25Z",
+                "name": "hajimari.17a74cb9fcdba122",
+                "namespace": "default",
+                "resourceVersion": "4882",
+                "uid": "67668420-83e4-4301-9986-be52cb0275db"
+            },
+            "reason": "InstallSucceeded",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "action": "Binding",
+            "apiVersion": "v1",
+            "eventTime": "2024-01-05T00:51:53.024857Z",
+            "firstTimestamp": null,
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "home-assistant-7cd65c4dcf-qgq2h",
+                "namespace": "default",
+                "resourceVersion": "10383",
+                "uid": "b178458a-b2b1-4c40-aa69-3a297b05cb38"
+            },
+            "kind": "Event",
+            "lastTimestamp": null,
+            "message": "Successfully assigned default/home-assistant-7cd65c4dcf-qgq2h to node01",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:51:53Z",
+                "name": "home-assistant-7cd65c4dcf-qgq2h.17a74d3e155ebbf2",
+                "namespace": "default",
+                "resourceVersion": "10484",
+                "uid": "6b3fb833-fb42-47ca-92c5-c80ab94c681c"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "default-scheduler-node01",
+            "source": {},
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:51:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{init}",
+                "kind": "Pod",
+                "name": "home-assistant-7cd65c4dcf-qgq2h",
+                "namespace": "default",
+                "resourceVersion": "10483",
+                "uid": "b178458a-b2b1-4c40-aa69-3a297b05cb38"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:51:53Z",
+            "message": "Pulling image \"busybox:1.36.1\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:51:53Z",
+                "name": "home-assistant-7cd65c4dcf-qgq2h.17a74d3e3fbb3ac5",
+                "namespace": "default",
+                "resourceVersion": "10495",
+                "uid": "f935cdb4-78df-4416-9458-a108734b451f"
+            },
+            "reason": "Pulling",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:51:54Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{init}",
+                "kind": "Pod",
+                "name": "home-assistant-7cd65c4dcf-qgq2h",
+                "namespace": "default",
+                "resourceVersion": "10483",
+                "uid": "b178458a-b2b1-4c40-aa69-3a297b05cb38"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:51:54Z",
+            "message": "Successfully pulled image \"busybox:1.36.1\" in 888ms (888ms including waiting)",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:51:54Z",
+                "name": "home-assistant-7cd65c4dcf-qgq2h.17a74d3e74b6555d",
+                "namespace": "default",
+                "resourceVersion": "10500",
+                "uid": "8507d620-2f97-4444-9236-235b5e799ac6"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 4,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:51:54Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{init}",
+                "kind": "Pod",
+                "name": "home-assistant-7cd65c4dcf-qgq2h",
+                "namespace": "default",
+                "resourceVersion": "10483",
+                "uid": "b178458a-b2b1-4c40-aa69-3a297b05cb38"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:52:35Z",
+            "message": "Created container init",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:51:54Z",
+                "name": "home-assistant-7cd65c4dcf-qgq2h.17a74d3e807c6b98",
+                "namespace": "default",
+                "resourceVersion": "10992",
+                "uid": "1855b511-8618-4935-a379-5bb110365608"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 4,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:51:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{init}",
+                "kind": "Pod",
+                "name": "home-assistant-7cd65c4dcf-qgq2h",
+                "namespace": "default",
+                "resourceVersion": "10483",
+                "uid": "b178458a-b2b1-4c40-aa69-3a297b05cb38"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:52:35Z",
+            "message": "Started container init",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:51:55Z",
+                "name": "home-assistant-7cd65c4dcf-qgq2h.17a74d3e8b66d6a0",
+                "namespace": "default",
+                "resourceVersion": "10994",
+                "uid": "fc8b752b-4a8c-416b-bbf5-ec796d926206"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 3,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:51:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{init}",
+                "kind": "Pod",
+                "name": "home-assistant-7cd65c4dcf-qgq2h",
+                "namespace": "default",
+                "resourceVersion": "10483",
+                "uid": "b178458a-b2b1-4c40-aa69-3a297b05cb38"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:52:35Z",
+            "message": "Container image \"busybox:1.36.1\" already present on machine",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:51:55Z",
+                "name": "home-assistant-7cd65c4dcf-qgq2h.17a74d3ebe8d5579",
+                "namespace": "default",
+                "resourceVersion": "10991",
+                "uid": "70b3bb9e-6b7b-4af7-b815-de6fb445b00e"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 6,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:51:56Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.initContainers{init}",
+                "kind": "Pod",
+                "name": "home-assistant-7cd65c4dcf-qgq2h",
+                "namespace": "default",
+                "resourceVersion": "10483",
+                "uid": "b178458a-b2b1-4c40-aa69-3a297b05cb38"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:52:46Z",
+            "message": "Back-off restarting failed container init in pod home-assistant-7cd65c4dcf-qgq2h_default(b178458a-b2b1-4c40-aa69-3a297b05cb38)",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:51:56Z",
+                "name": "home-assistant-7cd65c4dcf-qgq2h.17a74d3efb852e37",
+                "namespace": "default",
+                "resourceVersion": "11098",
+                "uid": "e543d61e-1927-43c1-bd59-151e7cc27c23"
+            },
+            "reason": "BackOff",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:51:47Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "ReplicaSet",
+                "name": "home-assistant-7cd65c4dcf",
+                "namespace": "default",
+                "resourceVersion": "10381",
+                "uid": "781ec428-1bb9-4403-885a-d46a2782d71b"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:51:47Z",
+            "message": "Created pod: home-assistant-7cd65c4dcf-qgq2h",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:51:47Z",
+                "name": "home-assistant-7cd65c4dcf.17a74d3ce82b11ec",
+                "namespace": "default",
+                "resourceVersion": "10387",
+                "uid": "16c34144-678e-4eee-8ced-25deb4aafbce"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "replicaset-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "replicaset-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:41:35Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "home-assistant-pv",
+                "namespace": "default",
+                "resourceVersion": "3883",
+                "uid": "43730312-7384-4bed-91e1-d6efb8459d84"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:41:36Z",
+            "message": "storageclass.storage.k8s.io \"local-path\" not found",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:41:35Z",
+                "name": "home-assistant-pv.17a74cae348c4241",
+                "namespace": "default",
+                "resourceVersion": "4054",
+                "uid": "348a89d5-8d50-473d-9996-ad1bb2f1dc63"
+            },
+            "reason": "ProvisioningFailed",
+            "reportingComponent": "persistentvolume-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "persistentvolume-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 40,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:41:51Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "home-assistant-pv",
+                "namespace": "default",
+                "resourceVersion": "3883",
+                "uid": "43730312-7384-4bed-91e1-d6efb8459d84"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:51:36Z",
+            "message": "waiting for first consumer to be created before binding",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:41:51Z",
+                "name": "home-assistant-pv.17a74cb1fcaa7489",
+                "namespace": "default",
+                "resourceVersion": "10124",
+                "uid": "7b4e6baf-1ec7-4760-882c-b78e1f0b823c"
+            },
+            "reason": "WaitForFirstConsumer",
+            "reportingComponent": "persistentvolume-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "persistentvolume-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:51:48Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "home-assistant-pv",
+                "namespace": "default",
+                "resourceVersion": "10389",
+                "uid": "43730312-7384-4bed-91e1-d6efb8459d84"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:51:48Z",
+            "message": "External provisioner is provisioning volume for claim \"default/home-assistant-pv\"",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:51:48Z",
+                "name": "home-assistant-pv.17a74d3ceb39ff54",
+                "namespace": "default",
+                "resourceVersion": "10392",
+                "uid": "a16ee8bc-5c40-43e9-a8a5-b0ce4727d508"
+            },
+            "reason": "Provisioning",
+            "reportingComponent": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-xjm5v_c2330cc7-b220-4795-af57-889150be5bc3",
+            "reportingInstance": "",
+            "source": {
+                "component": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-xjm5v_c2330cc7-b220-4795-af57-889150be5bc3"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:51:52Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "home-assistant-pv",
+                "namespace": "default",
+                "resourceVersion": "10389",
+                "uid": "43730312-7384-4bed-91e1-d6efb8459d84"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:51:52Z",
+            "message": "Successfully provisioned volume pvc-43730312-7384-4bed-91e1-d6efb8459d84",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:51:52Z",
+                "name": "home-assistant-pv.17a74d3ddf14dac4",
+                "namespace": "default",
+                "resourceVersion": "10468",
+                "uid": "e73a31b7-8015-41c8-8048-52bd23fb5468"
+            },
+            "reason": "ProvisioningSucceeded",
+            "reportingComponent": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-xjm5v_c2330cc7-b220-4795-af57-889150be5bc3",
+            "reportingInstance": "",
+            "source": {
+                "component": "cluster.local/local-path-provisioner_local-path-provisioner-999c9dbb7-xjm5v_c2330cc7-b220-4795-af57-889150be5bc3"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:41:35Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "home-assistant",
+                "namespace": "default",
+                "resourceVersion": "3892",
+                "uid": "6a7b8dc4-d92e-42f8-a0b9-62011711e66e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:41:35Z",
+            "message": "Created HelmChart/flux-system/default-home-assistant with SourceRef 'HelmRepository/flux-system/bjw-s'",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:41:35Z",
+                "name": "home-assistant.17a74cae67280f32",
+                "namespace": "default",
+                "resourceVersion": "4001",
+                "uid": "5cbfa96a-bf00-424a-9484-b22018c22b79"
+            },
+            "reason": "HelmChartCreated",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 11,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:41:38Z",
+            "involvedObject": {
+                "apiVersion": "helm.toolkit.fluxcd.io/v2beta2",
+                "kind": "HelmRelease",
+                "name": "home-assistant",
+                "namespace": "default",
+                "resourceVersion": "4011",
+                "uid": "6a7b8dc4-d92e-42f8-a0b9-62011711e66e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:50:59Z",
+            "message": "Helm install failed for release default/home-assistant with chart app-template@2.4.0: execution error at (app-template/templates/common.yaml:14:3): No image repository specified for container. (controller main, container main)",
+            "metadata": {
+                "annotations": {
+                    "helm.toolkit.fluxcd.io/revision": "2.4.0",
+                    "helm.toolkit.fluxcd.io/token": "sha256:80f34a3a3c3735bca4a96694698d2260fdf436ce40ec97097473fa6461e480c5"
+                },
+                "creationTimestamp": "2024-01-05T00:41:38Z",
+                "name": "home-assistant.17a74caef00d38d2",
+                "namespace": "default",
+                "resourceVersion": "9757",
+                "uid": "98867f53-b6a9-4691-b05b-40e27b859385"
+            },
+            "reason": "InstallFailed",
+            "reportingComponent": "helm-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "helm-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:51:47Z",
+            "involvedObject": {
+                "apiVersion": "apps/v1",
+                "kind": "Deployment",
+                "name": "home-assistant",
+                "namespace": "default",
+                "resourceVersion": "10378",
+                "uid": "65ab7e42-316d-4561-83d3-8c6da7ff0677"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:51:47Z",
+            "message": "Scaled up replica set home-assistant-7cd65c4dcf to 1",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:51:47Z",
+                "name": "home-assistant.17a74d3ce786db2d",
+                "namespace": "default",
+                "resourceVersion": "10385",
+                "uid": "daf471cc-43df-4b1b-8839-5cba5fdf204a"
+            },
+            "reason": "ScalingReplicaSet",
+            "reportingComponent": "deployment-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "deployment-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:33:45Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:33:45Z",
+            "message": "Starting kubelet.",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:33:45Z",
+                "name": "node01.17a74c40f589200e",
+                "namespace": "default",
+                "resourceVersion": "202",
+                "uid": "e1ce698f-1686-4822-b286-cece3354be1f"
+            },
+            "reason": "Starting",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:33:45Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:33:45Z",
+            "message": "invalid capacity 0 on image filesystem",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:33:45Z",
+                "name": "node01.17a74c40f59e21eb",
+                "namespace": "default",
+                "resourceVersion": "203",
+                "uid": "f7782a4b-68d8-474d-aa03-c8a3bfb13a6a"
+            },
+            "reason": "InvalidDiskCapacity",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:33:45Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:33:46Z",
+            "message": "Node node01 status is now: NodeHasSufficientMemory",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:33:45Z",
+                "name": "node01.17a74c40f9df3903",
+                "namespace": "default",
+                "resourceVersion": "212",
+                "uid": "34a14c4f-2c41-4045-bc53-bfb3acfc49f0"
+            },
+            "reason": "NodeHasSufficientMemory",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:33:45Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:33:46Z",
+            "message": "Node node01 status is now: NodeHasNoDiskPressure",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:33:45Z",
+                "name": "node01.17a74c40f9df4791",
+                "namespace": "default",
+                "resourceVersion": "217",
+                "uid": "9f284f13-d52b-4828-9d4a-9a22c96517a4"
+            },
+            "reason": "NodeHasNoDiskPressure",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:33:45Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:33:46Z",
+            "message": "Node node01 status is now: NodeHasSufficientPID",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:33:45Z",
+                "name": "node01.17a74c40f9df5642",
+                "namespace": "default",
+                "resourceVersion": "219",
+                "uid": "0dddce77-8bd3-4fb7-86e1-4b2a504a806c"
+            },
+            "reason": "NodeHasSufficientPID",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:33:46Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:33:46Z",
+            "message": "Updated Node Allocatable limit across pods",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:33:46Z",
+                "name": "node01.17a74c41080e2a41",
+                "namespace": "default",
+                "resourceVersion": "220",
+                "uid": "311b9c24-2a7c-4e9a-961e-47da1e733ad9"
+            },
+            "reason": "NodeAllocatableEnforced",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:33:48Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:33:48Z",
+            "message": "Deferred node password secret validation complete",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:33:48Z",
+                "name": "node01.17a74c417b2376b0",
+                "namespace": "default",
+                "resourceVersion": "255",
+                "uid": "37b89536-727f-4424-b79a-e1cb817d3f1a"
+            },
+            "reason": "NodePasswordValidationComplete",
+            "reportingComponent": "k3s-supervisor",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "k3s-supervisor",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:33:59Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Node",
+                "name": "node01",
+                "uid": "9d946bbf-dc5e-4fe5-835e-a0ade0ed4c7e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:33:59Z",
+            "message": "Node node01 event: Registered Node node01 in Controller",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:33:59Z",
+                "name": "node01.17a74c442015131b",
+                "namespace": "default",
+                "resourceVersion": "395",
+                "uid": "b2ee5835-3ab4-4b7d-be07-5745910dae47"
+            },
+            "reason": "RegisteredNode",
+            "reportingComponent": "node-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "node-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:34:22Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:34:22Z",
+            "message": "Starting kubelet.",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:34:22Z",
+                "name": "node01.17a74c4986332d99",
+                "namespace": "default",
+                "resourceVersion": "442",
+                "uid": "c1d27019-0b73-4ba8-a829-e980b7a89e36"
+            },
+            "reason": "Starting",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:34:22Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:34:22Z",
+            "message": "invalid capacity 0 on image filesystem",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:34:22Z",
+                "name": "node01.17a74c498652ebee",
+                "namespace": "default",
+                "resourceVersion": "443",
+                "uid": "dbf30989-13ed-4e5e-b104-09c1150dbbf9"
+            },
+            "reason": "InvalidDiskCapacity",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:34:22Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:34:22Z",
+            "message": "Updated Node Allocatable limit across pods",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:34:22Z",
+                "name": "node01.17a74c498ccdbf63",
+                "namespace": "default",
+                "resourceVersion": "445",
+                "uid": "b7db9f9f-b335-4535-8dc2-64a25e4823c7"
+            },
+            "reason": "NodeAllocatableEnforced",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:34:22Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:34:22Z",
+            "message": "Node node01 status is now: NodeHasSufficientMemory",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:34:22Z",
+                "name": "node01.17a74c498cf9517e",
+                "namespace": "default",
+                "resourceVersion": "446",
+                "uid": "ad4978b0-4dc5-436c-b449-fcba184d1325"
+            },
+            "reason": "NodeHasSufficientMemory",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:34:22Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:34:22Z",
+            "message": "Node node01 status is now: NodeHasNoDiskPressure",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:34:22Z",
+                "name": "node01.17a74c498cf96501",
+                "namespace": "default",
+                "resourceVersion": "447",
+                "uid": "e172bc8b-6f60-4017-ac28-8bb86ba91d3f"
+            },
+            "reason": "NodeHasNoDiskPressure",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:34:22Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:34:22Z",
+            "message": "Node node01 status is now: NodeHasSufficientPID",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:34:22Z",
+                "name": "node01.17a74c498cf96b50",
+                "namespace": "default",
+                "resourceVersion": "449",
+                "uid": "7656b780-89fe-4592-ab11-40315828aadb"
+            },
+            "reason": "NodeHasSufficientPID",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:34:26Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:34:26Z",
+            "message": "Deferred node password secret validation complete",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:34:26Z",
+                "name": "node01.17a74c4a5d2dadb1",
+                "namespace": "default",
+                "resourceVersion": "488",
+                "uid": "44b53722-8186-456a-aa00-1323765416b3"
+            },
+            "reason": "NodePasswordValidationComplete",
+            "reportingComponent": "k3s-supervisor",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "k3s-supervisor",
+                "host": "node01"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:34:51Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Node",
+                "name": "node01",
+                "uid": "9d946bbf-dc5e-4fe5-835e-a0ade0ed4c7e"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:34:51Z",
+            "message": "Node node01 event: Registered Node node01 in Controller",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:34:51Z",
+                "name": "node01.17a74c5033a68e52",
+                "namespace": "default",
+                "resourceVersion": "602",
+                "uid": "0f26122c-f17f-488c-abe7-9388b3ef18aa"
+            },
+            "reason": "RegisteredNode",
+            "reportingComponent": "node-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "node-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2024-01-05T00:35:23Z",
+            "involvedObject": {
+                "kind": "Node",
+                "name": "node01",
+                "uid": "node01"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2024-01-05T00:35:23Z",
+            "message": "Node node01 status is now: NodeReady",
+            "metadata": {
+                "creationTimestamp": "2024-01-05T00:35:23Z",
+                "name": "node01.17a74c57b5f8f494",
+                "namespace": "default",
+                "resourceVersion": "912",
+                "uid": "fdb8cd51-d537-4ad2-bef7-32bd8d979c79"
+            },
+            "reason": "NodeReady",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "node01",
+            "source": {
+                "component": "kubelet",
+                "host": "node01"
+            },
+            "type": "Normal"
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}
