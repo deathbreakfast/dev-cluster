@@ -26,6 +26,16 @@ spec:
     controllers:
       main:
 
+        initContainers:
+          init:
+            image:
+              repository: busybox
+              tag: "1.36.1"
+            command:
+            - "/bin/sh"
+            args:
+            - "/init.sh"
+
         containers:
           main:
             image:
